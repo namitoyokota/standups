@@ -12,6 +12,219 @@ Today
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
 ## Hexagon
+### 4/30/21
+Yesterday
+- Had a sync up meeting for the performance test like they said
+- After that I started running some tests but found out that the tabbed space bug is still there so talked to Jeremy for a bit
+- Then also made some configuration file templates for different scenarios of a test
+
+Today
+- Do some cleanup of the code before I push it back up to the master branch
+- I'll work on the documentation of the tool and see how far I can get
+
+### 4/29/21
+Yesterday
+- Implemented fixes for all of the bugs that I could find in the front end performance test tool
+- Started working on the documentation for the tool
+
+Today
+- We have a sync up meeting for the end to end load test
+- So I'll spend this morning preparing for that and running some tests
+- Then the rest of the day depends on how the meeting goes
+
+### 4/28/21
+Yesterday
+- Finished up adding modularity to the card interactions in the performance test tool
+- Did some research on recording the network tab in the chrome dev tools but ran into limitations with the versioning of Selenium so left that alone for now
+- Ran a lot of different test scenarios to see if I can break any of the test and ended up finding some bugs that I need to fix
+
+Today
+- Most of the morning time I'll spend hardening the tool and doing some testing after that
+- After that, I'll work on pushing the code up to the master branch and writing some documentation on the wiki
+
+### 4/27/21
+Yesterday
+- Added a new logic so in case of a failed test, the test should always log out if the user is still signed in
+- Added an additional feature to the filtering of the card so that when you don't configure what kind of cards to interact with, that filtering function is ignored
+- Continued on adding more modularity to interactions with the cards but had some errors and I realized that some of the common cards aren't in the exact same architecture for the different entities so I just put in a fix for that
+
+Today
+- I will be running some tests to make sure everything is working and then move on to doing some research on recording network traffic from the chrome dev tools
+- And get started on implementing that if possible
+
+### 4/26/21
+Friday
+- Implemented changing of priority when posting in channel
+- The test now takes a screenshot of the current state of the UI when an error is detected
+- Started working on adding more modularity to interactions with card
+
+Today
+- I'm going to continue working on that
+- And do some research to see if I can record the network tab in devtools using Selenium
+
+### 4/23/21
+Yesterday
+- Worked on outputting the configurations files after each test so you can see all of the configurations you set for that specific test
+- Implemented filtering feature for interacting with the card so you can tell the program what kind of entity to interact with by the title name or the tenant
+- Ran into issues with chat and channel where sending an attachment can slow the UI so got that fixed as well
+
+Today
+- Notifications testing seems to run into issues once in a while so I'll look into fixing that this morning
+- Then move onto creating more modularity in the functions
+- Rest of the day I'll continue to harden the tool and work on more clean up the code
+
+### 4/22/21
+Yesterday
+- Chased down the bugs that I caused from the new features that I added Tuesday
+- Finished up reactions for channels and implemented reactions for chat and completed testing for that so that seems to be working just fine
+
+Today
+- I have a few more small features to add
+- And the rest of the day I'll just spend hardening the tool and making sure it can catch any errors during the test
+
+### 4/21/21
+Yesterday
+- Implemented a lot of the small tasks that I discussed with Joshua on Monday
+- Finished up viewing entities on the map which should drive the tiles to load
+- Updated the memory log to record the timestamp, updated all of the json files to print out throughout the test instead of just at the end so you can see everything live
+- Worked on clearing the unmanaged alarms
+- Also finished up creation of new channels when configured
+
+Today
+- I ran some tests in the morning and it looked like the new features broke a few things so I'll have to chase that down
+- Then move on to the reactions in chat and channel
+- I think chat may be a little hard to implement since I was having issues before
+- I can also run some load tests related to the memory leak and see if I can contribute to figure out that issue as well
+
+### 4/20/21
+Yesterday
+- Ran some tests on the VM in the morning
+- Then met with Joshua to talk about the progress of the performance test tool and some improvements that can be made
+- Spent the rest of the day implementing those and doing some research for the interactions with the map
+
+Today
+- Today will be more of the same
+- Hoping to finish up the reactions for chat and channel, interaction with the map but in the alternative way that Joshua mentioned yesterday, and then clearing alarms from the UI
+
+### 4/19/21
+Friday
+- I wrapped up the chat and channel implementation that I was working on for last week
+- Combined all of the previous tasks and ran a big load test to make sure everything was working fine
+
+Today
+- I'm going to run a test on the VM since I was previously having trouble with that and see how that goes
+- I'll probably be facing some issues so if I can solve that, I'll move on to the documentation of the tool and getting ready to push the final version up soon
+
+### 4/16/21
+Yesterday
+- Spent most of the day debugging a lot of the small issues that I've been holding off to fix for a while now
+- Some of them took longer than expected but most of it should be done
+- Still have a couple of more things on the list that I need to validate and/or fix
+- But I also added a hard exception handling that can catch any error and then refresh the page if needed to restart the test at any time
+
+Today
+- Attempt to finish up the rest of the bug fixes
+- I'm wanting to run a load test with all of the features together and see how that goes
+
+### 4/14/21
+Yesterday
+- Continue working on the load test tool for Channels
+- I have all of the features implemented but the tool runs into a few problems here and there so today will be mostly debugging and testing what I implemented yesterday
+- Hoping to get back to a lot of small bugs that I've been avoiding for a while and trying to get that done
+
+### 4/13/21
+Yesterday
+- Continued working on the front end side of the performance test tool
+- Finished up chat
+- Started working on channels and got a really good foundation
+
+Today
+- Will be continuing to work on the channels and hopefully finish that up
+
+### 4/12/21
+Friday
+- Worked on the automation for the interaction with chat of the performance test on the front end side
+- Actually got most of it done
+- Finished up configurations for who to send the chat to, the different messages you can send, and also attachments so that can drive the backend to get some load
+- Of course did some load tests and error handling
+
+Today
+- Try to finish up the chat in the morning
+- Adding features to send messages to multiple users, leaving the chat, and things like that
+- Planning to get started on channels in the afternoon
+
+### 4/9/21
+Yesterday
+- Merging of the performance test tool up on the master branch of CommonWebRoot finished up
+- So started working on the documentation on how to use that on the wiki
+- Got that finished
+- Started working on implementation for the chat load test and got to a pretty good spot with that so I will be working on finishing that up today
+
+### 4/8/21
+Yesterday
+- Worked on hardening the performance test tool and ran some small tests with Austin to make sure all of the implementations were working
+- That went well so I went ahead and created a PR for the updated version of the tool
+- In the afternoon, I worked on setting up the VM and running the tests there
+- There were a few small hiccups here and there but I think it should work fine now
+
+Today
+- Start working on the documentation for the tool on the wiki
+- Afterwards, I will start on implementing interactions with the chat
+- I have an eye doctor appointment at 3:30 so I'll getting off a little early today
+
+### 4/7/21
+Yesterday
+- I added a lot of small improvements to the performance test tool from what we talked about in the sync up meeting Monday
+- I worked on refactoring the architecture so that now I can configure what part of the connect site I want to focus on interacting with
+- Got to a really good spot
+- Also tried to implement interactions with the map but still having trouble there so I'm going to have to do some more thinking
+
+Today
+- I'm going to do a little more clean up and testing this morning, and after that, I'll go ahead and push all of the changes to the master branch and see if I can get the test running on the VM
+
+### 4/6/21
+Yesterday
+- Had a performance test sync up meeting in the morning to discuss our progress and where to go from here
+- The meeting went really well so spent the afternoon making some of the small changes that we have talked about
+- Also got to test some of the front end changes I made last week but the devices console log wasn't working so ended up asking Jeremy for help
+
+Today
+- Apparently it was a versioning issue so created a PR for that this morning
+- So for the rest of the day, will be doing some refactoring to the code from the meeting notes from yesterday
+- Try to finish up interactions with the map as well
+
+### 4/5/21
+Friday
+- In the morning time, met up with Austin to run a load test on staging to test our tooling
+- Spent the rest of the day hardening to tools and fixing minor bugs that I found from the test
+- Also added more configurations and made some notes to prepare for a sync up meeting today
+
+Today
+- Have the sync up meeting for performance test like I said earlier
+- And the rest of the day depends on the content of that and hopefully get some directions going forward
+
+### 4/2/21
+Yesterday
+- Worked on adding console logging from the frontend for all HTTP requests and Signal R data for Alarms and Assets so I can read that information in the performance test tool
+- Got the PRs done for both
+- Worked on hardening the tool and running some small tests but found an issue where the client behaves differently when running headless
+
+Today
+- This morning I figured out the issue to be the window size set differently on headless so the DOM was a little different but fixed that issue
+- Today after standup, Austin and I are planning on get together to run a test so we can test our tooling
+- Rest of the day will be mostly hardening the tool and cleaning up the code
+
+### 4/1/21
+Yesterday
+- Worked on interacting with the map on the performance test tool
+  -Finished up zooming in and out but couldn't get the drag to work
+- So moved on to interacting with devices, alarms, and assets
+  - Got most of the features implemented but it seems like I need to do some digging to find the issues that I was running into when I ran a small test at the end of the day
+
+Today
+- I'm going to look into fixing those bugs and more hardening, and also adding configurations in min and max format
+- Austin seems like he is getting pretty far with Alarms so I'm going to implement the Common Logging for the frontend for Alarms and Assets
+
 ### 3/31/21
 Yesterday
 - Continued to work on the front end side of the end to end performance test

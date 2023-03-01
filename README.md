@@ -13,7 +13,7 @@ Today
 - 1019 which is cleaning up the UI for the add control dialog
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
-## Hexagon
+## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 ### 10/29/21
 Yesterday

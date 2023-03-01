@@ -12,6 +12,175 @@ Today
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
 ## Hexagon
+### 5/28/21
+Yesterday
+- Met with Emma in the morning like she said
+- And I finished up the PR for the part of the feature flags UI update
+- Also made some error detection changes to the performance test tool
+- Then had a meeting with the UX team at the end of the day
+
+Today
+- I'm going back to the CommonTenant to try and get my feature flags menu to pop up in a dialog
+
+### 5/26/21
+Yesterday
+- I finished up the feature flag implementations for setting flags globally and tenant wide
+- Did some testing and
+- Then created a PR and spent rest of the day fixing the things Jeremy mentioned in the code review
+
+Today
+- I will continue working on pushing the changes to master
+- And work on preparing for the sprint review demo with Austin
+
+### 5/25/21
+Yesterday
+- Continued working on the new feature flags changes
+- Got all of the implementations done except for groups so
+
+Today
+- I'm going to finish up the UI changes and try to get a PR up for review
+
+### 5/24/21
+Friday
+- I continued working on the feature flags changes to the front end
+- Made some pretty good progress
+- Talked to Emma throughout the day about some changes to the backend like she said
+
+Today
+- I'm going to keep working on the changes and hopefully finish up tenants menu
+
+### 5/21/21
+Yesterday
+- Met with Emma in the morning to get clarification on her feature flags update
+- Continued working on implementing those changes
+- Got pretty far with that so
+
+Today
+- I will continue working on that same thing
+
+### 5/20/21
+Yesterday
+- I had issues with running the v2 APIs feature flags locally so spent some time trying to fix that and also went back and forth with Emma throughout the day
+- I got a new injectable component set up for the tenant menu
+- Still working on connecting that to the updated endpoints
+
+Today
+- After standup, Emma and I are meeting just so that I can get a clarification on her implementations and also talk about what I'm thinking on my side
+- And then I'll get started on setting feature flags globally
+
+### 5/19/21
+Yesterday
+- Worked on adding a new feature flag and detecting that flag so that the UI is changed accordingly
+- Then started creating a new injectable component and that took a little while but I think I got it now so
+
+Today
+- I will start implementing the v2 changes the new component and creating a new flag so the component can work for both tenant and global changes
+
+### 5/18/21
+Yesterday
+- I started looking through the FeatureFlags enhancements
+- I spent most of the time trying to understand everything and reading though the wiki for adding a new feature flag
+- I think I have a pretty good idea of the direction I need to go and I also did get a new feature flag going for the enhancement changes so
+
+Today
+- I'm going to continue working on that
+
+### 5/17/21
+Friday
+- Spent most of the morning time reading through the wiki and looking through code to try and understand everything on the frontend
+- Started working on the tenant edit page's UI changes in CommonTenant and I think I got all of that done
+- I am still waiting on an update with a part of the design so I will finish that once I get that back from the UX team
+
+Today
+- I'm planning on getting started with Feature Flags and look into how the APIs are being called so I can start making changes with the new v2 endpoints that Emma implemented
+- And then work on the rest of the UI changes
+
+### 5/14/21
+Yesterday
+- Met with Joshua and Emma like they said to look over the UX design for feature flags and talk about the changes that I need to make on the frontend
+- Spent rest of the day to look through the CommonTenant and CommonFeatureFlags repo to try and understand them
+- Messaged back and forth with Jeremy about some of the questions I had
+
+Today
+- Still not understanding it fully so I'm going to go back to the documentation to re-read the UI wiki page again
+- Then I'll get started on looking into the organization set up page and start making changes
+
+### 5/13/21
+Yesterday
+- We had the demo after stand up
+- And worked on a couple of things for the tool and pushed up the final version to the master branch
+- I updated the documentation with new configurations and how to download the tool from the artifacts
+- I'm pretty much done with the performance test tool for now so Joshua and/or Mark if we can talk about what I need to get started on whenever you get a change that'll be great
+
+### 5/12/21
+Yesterday
+- I worked on hardening the tool and also running with multiple clients
+- I was able to test from my machine for 30 minutes with 5 clients and an hours with 10 clients and they both seemed to have worked pretty well
+- In the afternoon, I started preparing for the demo we have today after standup and also talked to Austin for a bit about that
+
+Today
+- We have the demo
+- After that, I'll make sure the wiki has everything that is needed
+- And push the final version to master
+
+### 5/9/21
+Yesterday
+- Morning, I had to go back to the localization changes to the CommonLibraries repo since the build didn't go through for some reason and got that working now
+- Updated the wiki with the workflow of the tool and also the errors that you may run into and how to fix those
+- Went to the VM to run some tests but with it only having 8GBs of RAM, it was running out of memory when using multiple clients
+
+Today
+- I'm planning on trying to optimize the program better and see if I can find any memory leaks
+- After that, I'm hoping to run a big test and see what I can find from that
+
+### 5/8/21
+Yesterday
+- Hunter and I continued working on adding the localization changes to all of the repos
+- I made a few mistakes so I had to cry to Hunter and Joshua for help a few times but
+- We did get all of the updates pushed up and everything seemed to be working
+
+Today
+- I will go back to the performance load test unless something comes up
+- I'll add the workflow to the wiki explaining how the tool works
+- And any errors that can happen and how to fix those
+- And also try and run the test on the VM as well
+
+### 5/7/21
+Yesterday
+- Started implementing the localization changes to all of the repos with Hunter
+- We got pretty far I think we have about 5 or 6 more to go
+
+Today
+- So I will be working on the rest of that today
+
+### 5/5/21
+Yesterday
+- I was having internet problems here and there but spent most of the time just preparing for the demo and seeing if there are any bug fixes I need to work on
+- Also ran a small test and found out that turning off notifications seemed to work better when interacting with cards or the map
+
+Today
+- I will work on wrapping up the load test tool for the sprint
+- There are a few things that I need to add to the wiki and I think I also messed up the attachments in the gitignore file so I'll look more into that today
+
+### 5/4/21
+Yesterday
+- Met with Austin to talk about the demo for the sprint review
+- Then went to go get the first dose of the vaccine but luckily I was feeling completely fine
+- In the afternoon, I tried to test all of the things Austin and I planned on doing
+
+Today
+- I'll continue to work on that to see if there's anything in the tool I need to fix
+
+### 5/3/21
+Friday
+- Cleaned up the code and pushed the completed version of the frontend performance test tool the master branch of CommonWebroot
+- Also wrote the documentation for the tool on the wiki and finished that as well
+
+Today
+- Austin and I are getting on a call after standup to talk about the sprint review and planning what we can do
+- I also have an appointment for the vaccine at 10:45 so I will be out for a bit around that time
+- Rest of the day, I will work on preparing for the sprint review demo and fix any issues that I run into
+
 ### 4/30/21
 Yesterday
 - Had a sync up meeting for the performance test like they said

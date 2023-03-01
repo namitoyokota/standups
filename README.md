@@ -12,6 +12,254 @@ Today
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
 ## Hexagon
+### 3/1/21
+Friday
+- Move my project directory in WebRoot and pushed that code in the pipeline
+- Still running into issues with the dotnetcore version during the built
+- Worked on implementing testing on units
+- Got in a good spot for that
+- In the afternoon, started setting up my machine to start developing the frontend
+
+Today
+- I'm meeting with Jeremy to get help on setting up Angular
+- Work on hiding the incident IDs in the DOM
+
+
+### 2/26/21
+Yesterday
+- Started implementing units made some progress but still working on that
+- Added ability to configure units, incidents, or both
+
+Today
+- Fix build issue from Joshua's exclusions update so pushing that change
+- Meet with Lyna sometime today to see how she implemented tests against units
+- Hoping to finish units today
+
+### 2/25/21
+Yesterday
+- Ran a small load test with Austin to test our tooling
+- Made some minor changes in the afternoon, and cleaned up the code with some comments
+- Worked on pushing the code to git but ran into a build error with nuget packages
+
+Today
+- I will be trying to fix that
+- Start working on load testing Units
+
+### 2/24/21
+Yesterday
+- Worked on the errors that I was having with not being able to read the DOM fast enough and some other bugs that I documented from earlier in the week
+- Implemented a whole new approach for that, seems to be working for now
+- Clean up some code and added comments
+- Made it more dynamic to prepare to start adding a script for units
+- Met with Joshua and Austin to discuss where to go from here
+
+Today
+- I will be running a load test with Austin soon just to test our tooling
+- Make adjustments as needed
+- Push the code into Git
+- Hope to start working on units
+
+### 2/23/21
+Yesterday
+- Able to get each client logged into different account for the load test
+- Got memory performance recorded at the start and the end (do a comparison)
+- Ran issues with the script not being able to read the DOM fast enough when Austin's back-end is too fast
+- Bugs with detached elements from the DOM because of the dynamic reading of the incidents
+- Documented all of those problems and have a fix that I'll be implementing for most of the day
+
+Today
+- Cleaning up the code along the way to prepare to push to the webroot repo
+
+### 2/22/21
+Friday
+- Ran different instances of load test to try and duplicate the situation from our last load test on Thursday where we think a lot of the users got logged out
+- Was not able to make that happen again
+- Figured out that not all users actually got logged out but the DOM just updated and my script was running into an error since it was trying to access an element which was no longer there
+- Have a console log file output with filtering of only warning and severe information
+- Rest of the afternoon was spent debugging an issue with reading notifications from Thursday's load test
+- Finally figured out the problem at the end of the day
+
+Today
+- Trying to fix the notifications issue
+- Joshua was able to create 20 more test users so will be testing logins with these accounts
+- Recording memory performance
+
+### 2/19/21
+Yesterday
+- Attempted to run a load test in the morning but ran into issues with the dev environment
+- Started the performance test in the afternoon once that was fixed
+- About 10-15 minutes into the test, the simulated clients started having some issues
+- Spent the rest of the day digging into why and how that happened
+- It seems like all of the clients got logged out all at once at that point
+
+Today
+- Try to look into how the users got logged out
+- Have more issues to look into from the test yesterday with my script so will be looking into that
+
+### 2/18/21
+Yesterday
+- Spent time in the morning adding a feature to log in multiple users for the safe cities tenant instead of just one that I had implemented previously
+- Was having an issue with running 2 tasks concurrently and one would get stuck once in a while but got that figured out and fixed
+- Attempted to run a load test yesterday afternoon so will be re running that today
+
+Today
+- I also have a sync up meeting with Joshua and Mark later in the day
+
+### 2/17/21
+Yesterday
+- Most of the day was fixing a lot of small bugs with the counting of new incidents and making sure that they all match with the back-end
+- Had a front-end performance test meeting to discuss different approaches and new changes to be made to the DOM
+- Met with Austin to do a small test and prepare for the load test today and discuss a few things there
+
+Today
+- We're going to be running another load test on the dev environment with more data this time
+- We'll be analyzing the data and making sure the program ran without any errors
+- Before then, hoping to add a feature to log in with multiple users instead of just one that I have now
+- More implementations here and there from what I've discuss in the sync up meetings
+
+### 2/16/21
+Yesterday
+- Spent most of the morning time fixing bugs in the load test script
+- Started working on implementing testing of units
+- Met with Joshua and Austin for a sync up meeting and talked about where to go from here
+- Researched into reading the console log from chrome seems like that is a possibility
+- Ran a small load test in the afternoon in the afternoon just on my computer with 2000 incidents per hour from Austin's script
+- The client seems to have trouble reading new incidents one by one so I'll more into that today
+
+Today
+- Implement units
+- Meeting with Joshua and Jeremy to discuss how we can improve the front-end 
+
+### 2/15/21
+Friday
+- Implemented more in-depth incident reading using the expand button such as primary contact, cross street, and others for the automation script
+- Added 2 concurrent tasks
+  - one for reading incidents from the tab that I already had
+  - 2nd task for reading incidents from the notifications tab
+- I ran some short tests afterwards and validated that two tasks read the same amount of incidents total
+- But, bad news, I actually ran it again this morning and I found that the duplicate incidents bug was back on the dev environment I think it could be caused from what Craig just said that they worked on
+
+Today
+- Fixing the problem of not being able to read in-depth incident info when running concurrent tasks
+- Hoping to meet with Joshua and Austin
+- I am planning to start tackling a lot of the new tasks from the sprint board
+
+### 2/12/21
+Yesterday
+- Spent most of the morning cleaning up the code for the automation script
+- Had a bug where I was reading some of the existing incidents instead of just new incidents so fixed that
+- Created a log file to view the metrics of all of the clients combined after the test
+- Spent the afternoon adding multi-threading to start listening to incidents from the incidents tab and from the notification concurrently. That's working now
+
+Today
+- Was going to start working on reading the incidents from the notifications
+- Read additional incident info
+  - So getting primary contact, attachments, and more
+  - Which I had trouble previously
+- Start researching into how I can approach a lot of the new tasks like
+  - Running multiple users
+  - Running multiple tenants
+  - Storing incident id so modifications and deletions can be tracked
+- When those are implemented
+- Maybe meet with Austin for some sync up and a test
+
+### 2/10/21
+Yesterday
+- Most of the morning time I spent with Austin making a lot of minor tweaks to our load testing scripts
+- In the afternoon, we ran a load test for 2 hours from 1-3 on the dev environment
+- Successfully finished the test without any major errors but still need some improvement going forward
+
+Today
+- Have a performance test meeting to discuss our test results from yesterday
+- Just some preparations for the sprint reviews
+
+
+### 2/9/21
+Yesterday
+- Started a load test starting at 2 o'clock
+- My automation script had errors detecting new incidents after a little while
+- So we decided to try again today.
+- For the rest of the day, I made some minor tweaks
+- Austin and I tested again to make sure everything works at the end of the day
+- 
+Today
+- Austin and I will be running a load test again after standup
+- If everything goes well with the test, we'll be reviewing the metrics afterwards
+- And I'm planning on adding more features
+
+### 2/8/21
+Friday
+- Made changes to the browser automation script according to the E2E sync up meeting from
+
+Thursday
+- Also met with Austin on how we can run our tests concurrently on a dev environment
+
+Today
+- I think after stand up, Joshua and Austin wanted to meet to plan for our test in the afternoon
+- I'll be making some changes to the script to try and get that closer to perfect (I think there are still bugs)
+- In the afternoon, like I said already, Austin and I will be running our test 
+
+### 2/5/21
+Yesterday
+- Most of the day was spent debugging some small issues, cleaning up the code and final tests
+- Sync up meeting for E2E testing
+- Went well, know where to go from here
+- Yesterday after the meeting and this morning was spent researching how I can implement some of the new features
+
+Today
+- So today I'll be working on adding those to the automation script
+
+### 2/4/21
+Yesterday
+- Spent time in the morning try to figure out some of small bugs and got most of that fixed
+- Found out the problem I was running into for reading in the incidents from the front-end seemed a little complicated so I will bring that up at the sync up meeting today
+- In the afternoon, I worked on adding validations and outputting the results into a file
+- Also spent some time running a load test to see its results
+
+Today
+- I have a sync up meeting in the afternoon
+- So I will be spending most of the day cleaning up the code, running some tests, and putting some notes up of what I've been working on
+
+### 2/3/21
+Yesterday
+- Started working on reading incidents from the website with the css selectors Had some trouble in the morning but talked to Lyna for a bit and finally got that somewhat working
+- Added comparison functions to use for validations of incidents
+- Added in-depth loggers more focus on the load testing portion
+
+Today
+- Fixing errors for reading in incidents
+  - May need to talk to someone that understands the front-end well
+  - Currently can read
+- Load testing with different scenarios
+
+### 2/2/21
+Yesterday
+- Had a sync up meeting for E2E testing after standup
+  - Got updates on what Austin has been working on
+  - Explained the problem with versioning
+  - And got help on where to go from here
+- Spent the morning time testing different scenarios of load test
+- Spent the rest of the day working on the automation script for the front-end
+  - Added a logger to keep track of all of the actions being performed
+  - Added error catching so programs won't just shut down when running into exceptions
+  - Started working on validations and have it to where I can read the expected incidents that should be displayed on the web
+
+Today
+- Continue working on the validations of incidents
+- Adding configurations
+- Testing those implementations with different load test scenarios
+
+### 2/1/21
+Friday
+- Spent some time researching into the different .NET frameworks
+- Figured out the problem with using the load testing framework was that the .NET Core 2.1 wasn't supported
+- Moved my Python automation script into C# with .NET Core 3.1 which is only supported by Visual Studio 2019 version
+- Today we need to discuss whether this is the approach to go with from now on or not
+
+Today
+- Spending more time implementing the automation script into C#
+- Start looking into our testing plans to figure out the best way to implement
+
 ### 1/29/21
 Yesterday
 - After stand up, had a meeting with Mark, Joshua, Austin, and Lyna

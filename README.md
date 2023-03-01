@@ -1802,7 +1802,7 @@ Today
 - Afternoon depends on the meeting
 
 ### 1/13/21
-Done
+Yesterday
 - Visual Studio Web Test
   - Only supports Internet Explorer
   - Record http requests with Fiddler
@@ -1813,57 +1813,57 @@ Done
   - Met with Chad on running SignalR client and listening to live updates for Incidents
   - More explanation on where the data is all stored for future testing
 
-To Do
+Today
 - Start increasing requests and adding validations
 - Test SignalR with different services
 - Research SignalR load testing tools
 
 
 ### 1/12/21
-Done
+Yesterday
 - Requested for a license: needed justification, now approved
 - Downloaded Visual Studio Enterprise and confirmed license
 - Met with Austin on back-end performance testing through the PowerShell
 - Started research on front-end load testing using Visual Studio
 - Installed an extension for performance testing
 
-To DO
+Today
 - Continue research and start testing some of the Visual Studio's testing capabilities
 - Research into testing SignalR connections
 - Maybe meet with Austin as needed
 
 ### 1/11/21
-Done
+Yesterday
 - Finished onboarding: installing services and running though Service Fabric, verified
 - Got help from Craig on debugging each service individually
 - Brief overview of what each service is used for, and the Azure Portal
 - Updated the onboarding Wiki
 - Started researching load testing and reading into Austin's research
 
-To Do
+Today
 - Need to talk to Mark about what to do going forward
 
 ### 1/7/21
-Done
+Yesterday
 - Meeting with Austin, Mark, and Joshua about the performance testing tools
 - Continued the onboarding process and got help from Austin
 - Updated the CommonIdentity repo's UserManifests so I will have access to Local, Dev, and Staging
 - Met with Craig for some explanation on the pipeline and some additional questions
 - Got the Antivirus policy updated to the Developer Systems
 
-To Do
+Today
 - Start installing the services with the updated Antivirus policy and get help as needed
 - Set up Swagger Service APIs
 - If finished onboarding wiki, update the wiki as needed
 
 ### 1/6/21
-Done
+Yesterday
 - Onboarding wiki finished
   - Certificates
   - VPN to Galileo DEV (still needs testing)
 - Researched and understood most of the big picture system architecture of HxGN Connect
 
-To Do
+Today
 - Hoping to get connected with a team member for guidance to see demos more in-depth look into the application and its services
 
 ### 1/5/21

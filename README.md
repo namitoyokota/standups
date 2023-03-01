@@ -12,6 +12,161 @@ Today
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
 ## Hexagon
+### 9/29/21
+Yesterday
+- I continued hardening the recovery manager page and got a couple of prs there but everything should be in now so
+
+Today
+- I'm going to be testing all of those changes and preparing for the sprint review
+
+### 9/28/21
+Yesterday
+- I worked on the bug in organization set up when saving changes and I pushed that change but the issue is still there on dev today so Jeremy is fixing that now
+- Then I continued working on bug fixes and one of the issues, there's not an easy solution so Joshua Mark and Lyna if yall have time after standup, I would like to show you guys that and Jeremy if you can stay on here as well just in case
+
+Today
+- I'm going to push that change
+- And continue on with the hardening
+
+### 9/27/21
+Friday
+- I finished up the change to the organization setup layout that I talked to Jeremy about on Thursday and came up with a solution on
+- There is an issue with the save functionality so I'm looking into that now but after I finish it, Joshua I would like to show you the change we came up with
+- I also got in more bug fixes for the recovery manager and
+
+Today
+- I will be looking into the organization setup error and
+- I also have 1 more round of bug fixes to go through in recovery manager that I need to get some help from Hunter on
+
+### 9/24/21
+Yesterday
+- I worked on refactoring the tenant config page but ran into an issue so talked to Jeremy on that and he came up with a solution so I needed to re-work my changes but I have that update ready now
+
+Today
+- I'm doing some tests there so should have a PR up soon
+- And then after that I'm going back to recovery manager and finish up all of the bug fixes
+
+### 9/23/21
+Yesterday
+- I finished up the admin recovery page and finished that up
+- Joel and I got a solution for the restore issue we had from group testing so we got that fix in as well and
+- Later in the day I started working on the Organization Setup page refactoring for each page to have it's individual save buttons so
+
+Today
+- I just finished up the feature flags page so I'm going to move onto Tenant and hopefully finish that up today
+
+### 9/22/21
+Yesterday
+- We had a group testing for recovery manager and that went really well
+- Started working on the changes in the provisioner view that we talked about, got that done
+
+Today
+- But this morning, recovery had an issue deplying on dev and staging so Joel helped me look into that
+- And today, I'll be working on finishing up the admin viewand I also have to go back to the tenant config to refactor the layout as well
+
+### 9/21/21
+Yesterday
+- Yesterday I continued working on the recovery manager
+- And also finished up a bug on the board for feature flags
+
+Today
+- We have a meeting to test recovery and after that
+- I will be working on any bug fixes that come up and also a few other bugs on the board
+
+### 9/20/21
+Friday
+- I had a prototype for the recovery manager refactoring and worked on that most of the day and also a few other small changes
+- Finishing up that PR now and I will be out for a couple of hours this morning but I should be back online around 1 oclock and will continue working on recovery manager
+
+### 9/17/21
+Yesterday
+- I made a lot of bug fixes and improvements to the recovery manager and got that PR up
+- Also talked to Velvet and Joel on some of the ui refactoring ideas to indicate the status of the backups better so I made a prototype for that and Joshua I would like to show you that and hear your thoughts if you have time after standup
+
+
+Today
+- So today will be working on that and also have a few other small things I have to change in tenant and feature flags
+
+### 9/16/21
+Yesterday
+- I continued working on the recovery manager tweaks and talking to Joel and Velvet throughout the day and
+
+Today
+- Will be more of the same
+
+### 9/15/21
+Yesterday
+- I continued making changes to the recovery manager. Finished all of that and I also
+- Had some build pipeline issues here and there but got that figured out with some help from Joshua
+
+Today
+- I'm talking to Joel on more hardening tasks for the page so I'll be working on that today
+
+### 9/14/21
+Yesterday
+- I worked on a lot of small changes and fixes to the reocvery manager and talked to Lyna throughout the day on that
+- That PR is up now and
+
+Today
+- I got the designs from the UX team for the logos so I'll be working on those and more hardening tasks today
+
+### 9/13/21
+Friday
+- I added the recovery manager to the tenant configuration page
+- And made a few other changes to fit that in common recovery
+- I spent rest of the day testing and I found one main issue that I still haven't been able to figure out why it's happening
+
+Today
+- I'm going to be focusing on fixing that and also a few other hardening task
+
+### 9/10/21
+Yesterday
+- Made more updates to the recovery manager and pushed that in
+- I was hoping to test it on dev but the build never triggered the webroot angular build so I need to look into that
+- And also Hunter finished the tenant config page so
+
+Today
+- I'm going back to add the page and adding the admin recovery manager page
+- And once I finish that, I'll spend a lot of time testing everything
+
+### 9/8/21
+I was on PTO Friday afternoon and yesterday, but
+
+Friday
+- Morning I worked on bug fixes for the recovery manager and pushed that in and
+
+Today
+- Will be more of the same
+
+### 9/3/21
+Yesterday
+- I continued working on implementing the recovery manager ui to webroot and got that done with some help from Jeremy and Craig so
+- It should be on dev and staging for us to test now and
+
+Today
+- I have a demo meeting with a UX guy, Jared, right after standups, and then after that, I will be testing and looking for bugs to fix
+- And I'll be on PTO in the afternoon
+
+### 9/2/21
+Yesterday
+- I worked on getting the recovery manager page up on webroot
+- Jeremy helped me on that throughout the day and
+- I think I have all of the changes ready so I'm testing that now so
+
+Today
+- I'm going to try and get that done this morning and I'll be working on anything that comes up from that
+- And if not, I'll be onto the organization set up page to add recovery manager there as well
+
+### 9/1/21
+Yesterday
+- I was dealing with issues most of the day
+- So the first things was my local environment running into an error but Craig and Chad helped me out on that like they said
+- And I also had issues with recovery notifications and APIs but talked to Joel about that and found some bugs in my code that was causing those so I got all of those fixed and testing all of my other
+- changes and finished a new PR
+
+Today
+- I'll be working on adding the recovery manager UI to webroot
+
 ### 8/31/21
 Yesterday
 - I finished up making changes to the organizations list component in the tenant repo

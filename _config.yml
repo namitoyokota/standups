@@ -4,3 +4,4 @@ description: Script used to update my status during standups
 url: "http://namitoyokota.github.io/standups"
 markdown: kramdown
 highlighter: rouge
+remote_theme: pages-themes/merlot@v0.2.0

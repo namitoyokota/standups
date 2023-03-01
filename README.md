@@ -1,4 +1,5 @@
 # Standups
+A history of my standups.
 
 ## Venminder
 > December 5th, 2022 - Present

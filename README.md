@@ -12,6 +12,137 @@ Today
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
 ## Hexagon
+### 7/24/21
+- I was out all last week so this morning I spent some time catching up on everything
+
+Today
+- I also looked through the board and I saw that there's a story for feature flag feedbacks. mark should I go ahead start on that or keep going with the recovery manager ui?
+
+### 7/23/21
+Yesterday
+- I worked on a styling issue in activity monitor
+- And then worked on the feature flag changes for rest of the day
+- I'm basically done with that but I'm having issues with translation tokens so
+
+Today
+- I'm gonna look more into that more and
+- Then have a meeting for the recovery manager
+- Lyna also found a bug in the organization list so I'll try and fix that today as well
+- Oh and also I'll be out for the entire week next week so if anyone needs anything let me know
+
+### 7/22/21
+Yesterday
+- I continued working on the recovery manager ui and made some pretty good progress
+- This morning, I found a styling issue for activity monitor so I'll look into that after standup and then
+
+Today
+- I also need to make the changes to the feature flags UI from Emma's backend changes but I'm not sure what that might look like exactly, so Joshua if you have any ideas let me know. And
+- After that I'll be back on the recovery manager
+
+### 7/21/21
+Yesterday
+- I continued working on the recovery manager UI
+- Talked to Joel throughout the day as well as needed as well and
+
+Today
+- I'm almost done with the admin view so I will finish that up and then
+- Move on to the provisioner view
+
+### 7/20/21
+Yesterday
+- I cotinued working on the recovery manager UI and
+
+Today
+- Will be more of the same
+
+### 7/19/21
+Friday
+- I finished up the organizaiton list component in tenant with help from Hunter like he said
+- And I tested the changes to make sure everything is all working and it looks like it is so
+
+Today
+- I'm back to the recovery manager UI and getting start on the prototyping
+
+### 7/16/21
+Yesterday
+- I pushed in a bug fix for an error jeremy found in feature flags
+- Then moved back to tenant to finish up the organization list component and today
+
+Today
+- I'm still finishing that up
+- And after that, I'll keep working on the recovery manager
+
+### 7/15/21
+Yesterday
+- I continue working on the organization list component in tenant
+- It's taking me longer than I expected but I got some help from Hunter and Stephen yesterday so it should be done soon and
+
+Today
+- After that, I'll get back on the recovery manager
+
+### 7/14/21
+Yesterday
+- I worked on making small changes to feature flags throughout the day like Joshua said
+- And then worked on a shared component in tenant that I'm almost done with that so
+
+Today
+- I'm going to be finishing that up today and then get back to working on the recovery manager
+
+### 7/13/21
+Yesterday
+- I created a pr for feature flags to display the last modified date
+- And continued working on the recovery manager but
+
+Today
+- I need to go back to feature flags and make changes to fit Emma's versioning changes that she talked about
+- And I also need to make a new component in common tenant for the organization list to be used in the recovery manager ui so I'll be working on those today
+
+### 7/12/21
+Friday
+- I got started on the layout for the recovery manager UI and connecting the API
+- Then went back to feature flags to make changes according to Emma's updates
+
+Today
+- I'm doing some testing for the feature flags and that PR should be up soon
+- After that, I'll be going back to the recovery manager
+
+### 7/9/21
+Yesterday
+- I started looking into the new recovery manager UI
+- I got some help from Jeremy setting up a new frontend project
+- And then got the pipeline to build angular as well
+
+Today
+- I'm going to start on the new component and setting up the UI layout
+
+### 7/7/21
+Yesterday
+- I worked on a lot of small changes and bug fixes
+- And did some testing afterwards
+- At the end of the day, Emma found a change I need to make so
+
+Today
+- I will be working on that and another spacing issue I found
+- And I'll do more testing and take some bug fixes on the board if there are any
+
+### 7/6/21
+Friday
+- I continued hardening for the feature flag changes
+- Got a couple of PRs up and completed
+
+Today
+- I'm going to be testing those changes on staging
+- And see if I can find any other issues
+- And Joshua, like Emma said, if you have time to talk after standup that'll be great
+
+### 7/1/21
+Yesterday
+- I spent time testing the feature flag changes on testing
+- And found some things that I need to fix so I got that in at the end of the day
+
+Today
+- Will be more of the same and look into any other fixes or QA as well
+
 ### 6/30/21
 Yesterday
 - We had group testing for feature flags and

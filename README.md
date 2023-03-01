@@ -1,6 +1,8 @@
 # Standups
 
 ## Venminder
+> December 5th, 2022 - Present
+
 ### 3/1/23
 Yesterday
 - 1189 which was moving the API service files to a new directory
@@ -12,6 +14,7 @@ Today
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
 ## Hexagon
+> January 4th, 2021 - November 23rd, 2022
 ### 10/29/21
 Yesterday
 - We had a sync up meeting for Create Incidents in the afternoon so spent the morning time jotting down some notes and testing

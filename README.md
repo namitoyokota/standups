@@ -12,6 +12,183 @@ Today
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
 ## Hexagon
+### 6/30/21
+Yesterday
+- We had group testing for feature flags and
+- I spent most of the day getting those changes and it should be up now
+- And at the end of the day, got to fixing all of the load test tools
+
+Today
+- I'm going back to feature flags for a second to fix something and talk with emma on her changes
+- And after that I'll get started on the QA tasks or any bug fixes
+
+### 6/29/21
+Yesterday
+- I worked on a lot of the hardening tasks for feature flags and
+- Also got to fixing the backend device load test tool error Lyna was having
+
+Today
+- We have the group testing
+- And finish up rest of the tasks on the board
+
+### 6/28/21
+Friday
+- I worked on finalizing all of the changes to feature flags and
+- Got the PRs up for that
+- Also met with Emma throughout the day
+
+Today
+- I have some clean up to do in the manifest files and
+- I'm also waiting on that PRs to go through to dev so we can do some testing and fix anything if any comes up
+
+### 6/25/21
+Yesterday
+- I continued working on the feature flag changes
+
+Today
+- I will be finishing that up
+
+### 6/24/21
+Yesterday
+- We had a feature flags demo like everyone said and then
+- Spent rest of the day fixing the bugs and making small changes
+
+Today
+- Will be more of the same
+
+### 6/23/21
+Yesterday
+- I continued working on the feature flag changes
+- Those PRs are finishing up now so I'm waiting on that to finish
+
+Today
+- We have a demo for Velvet on that
+- I will spend rest of the day trying to get all of the changes applied on dev
+- And any other issues that come up
+
+### 6/22/21
+Yesterday
+- I continued working on feature flags
+
+Today
+- I'll be finishing it up
+
+### 6/21/21
+Friday
+- Continue working on the feature flag changes
+- And got to a pretty good spot with that so
+
+Today
+- I'll be finishing that up and start on the testing with Emma
+
+### 6/18/21
+Yesterday
+- worked on the feature flag changes that we talked about from the meeting most of the day and
+
+Today
+- Will be more of the same 
+
+### 6/16/21
+Yesterday
+- Continued my work on feature flag groups UI and I think I finished all of the implementations so
+
+Today
+- Will be a lot of testing and I should get a PR up by the end of the day
+
+### 6/15/21
+Yesterday
+- I continued working on the groups feature flags
+- I have all of the UI done and the API endpoints connected
+
+Today
+- I'm going to finish up the logic to keep track of the changes being made by the user
+
+### 6/14/21
+Friday
+- I implemented the api calls to the feature flag groups ui
+- Had to work on some refactoring from the conversation we had with Joshua
+
+Today
+- I have a 2nd COVID shot at 10 oclock
+- And when I get back, I'll to be working on the add group dialog and hopefully finish that up today
+
+### 6/11/21
+Yesterday
+- Continued working on the groups ui for feature flags and made really good progress
+
+Today
+- I'm going to start implementing the logic to connect with the backend apis
+
+### 6/10/21
+Yesterday
+- I worked on adding a new component in identity to be used in feature flags
+- had to cry to Hunter and Jeremy for help but I did get it done at the end of the day so
+
+Today
+- Back to feature flags to continue working on groups
+
+### 6/9/21
+Yesterday
+- Finished up the force push button in feature flags and worked with Emma on that throughout the day
+- Started brainstorming the groups implementations and I have a good idea now so
+
+Today
+- I'm getting started on that
+
+### 6/8/21
+Yesterday
+- I continued working on the groups ui for feature flags
+- And also had a meeting to discuss about that
+- Spent rest of the day working with emma to add a force push feature where you can change the flags for everyone below the setting you're changing it in
+
+Today
+- I'll work on finishing that up and test it
+- Get started on the groups feature since there's a lot of new changes that we discussed in the meeting
+
+### 6/7/21
+Friday
+- Talked with Emma after standup and throughout the day about some feature flag stuff
+- Then started working on the groups list implementation I have the basic UI done
+
+Today
+- I'm going to continue working on the UI and get started with connecting the backend
+- And also have a sync up meeting for feature flags
+
+### 6/4/21
+Yesterday
+- I finished up the organization manager PR and am almost done with the groups feature flags UI so
+
+Today
+- I'm meeting with Emma today to make sure that it's working and talk about the logic
+If that goes well, I'll get that PR up and I'll start working on implementing that back in the
+organization manager
+
+### 6/3/21
+Yesterday
+- Continued working on the feature flag changes
+- And chatted with Jeremy and Hunter throughout the day to get some help
+
+Today
+- I'm waiting on that PR to go through to make sure there aren't any more issues
+- and then I will move on to the groups UI once that's done
+
+### 6/2/21
+Yesterday
+- I had a few changes I need to make to feature flags so I got that done
+- I then went back to common tenant and created a PR but had some merge issues so
+
+Today
+- I'll be working to fix that
+- And then go back to feature flags to start implementing the groups feature
+
+### 6/1/21
+Friday
+- Talked about changes to the feature flags UI with Joshua and Emma in the morning
+- Worked on those most of the day and finished up the PR
+
+Today
+- I'm going to back to the tenant UI to add the changes from Friday
+
 ### 5/28/21
 Yesterday
 - Met with Emma in the morning like she said

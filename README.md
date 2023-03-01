@@ -12,6 +12,164 @@ Today
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
 ## Hexagon
+### 10/29/21
+Yesterday
+- We had a sync up meeting for Create Incidents in the afternoon so spent the morning time jotting down some notes and testing
+- The meeting went really well so afterwards
+- I started working on some of the additional changes that we talked about
+- That first round of changes are done so
+
+Today
+- I'm going to try and finish the rest out today
+
+### 10/28/21
+Yesterday
+- I finished up allowing the Create Incidents UI to be also used for editing incidents
+- So now most of the implementations should be done
+
+Today
+- I'm going to be testing everything
+- And jot down some notes for the sync up meeting at 1:30
+
+### 10/27/21
+Yesterday
+- I finished up adding priorities for Create Incidents UI and
+- Started working on setting a default value for the user list dropdown
+
+Today
+- I'm going to finish that up this morning and then
+- We have a meeting to talk about setting priorities in onboarding setup
+- So will probably be working on that for rest of the day
+- And I'm also off early today at 3
+
+### 10/26/21
+Yesterday
+- Worked on connecting the backend for priorities to Create Incidents but had some issues so
+- I started working on the UI for keywords
+
+Today
+- I talked to Jared about the issue and we found out that it was just that the URL had been updated so I'm back on priorities today and hopefully finish that up
+
+### 10/25/21
+Friday
+- I worked on adding priorities to Create Incidents UI
+- And also talked with Jared throughout the day on the REST API
+- We had some issues there but he was able to figure that out so
+
+Today
+- I'm going to be testing his changes and will be finishing that up
+
+### 10/20/21
+Yesterday
+- I had issues with my local services so that took out most of the day
+- At the end of the day I made a PR for uploading files on Create Incident but Jeremy pointed some things out so I'll be working on fixing that today and then start working on Editing Incidents
+
+### 10/19/21
+Yesterday
+- I worked on uploading files in Create Incidents and I think I have everything ready but ran into an issue with Traefik at the end of the day so still talking to Stephen on that
+
+Today
+- When we get that figured out, I'll move on to editing incidents
+
+### 10/18/21
+Friday
+- I worked on a new dropdown component in identity to be used in the Create Incidents UI
+- Had some hiccups along the way but I got it finished so
+
+Today
+- I'll start working on uploading files and then attaching it on incident creation
+
+### 10/15/21
+Yesterday
+- I pushed up some of changes for Create Incidents and then
+- Started working on a work around for an issue I had that Hunter helped me out with
+
+Today
+- I have one more thing to work on there and then will be back on Incidents
+
+### 10/14/21
+Yesterday
+- I continued working on the Create Incident UI and
+
+Today
+- Will be more of the same
+
+### 10/13/21
+Yesterday
+- I fixed a small styling issue in recovery
+- And then finished up a basic wizard for the Create Incidents UI so push that PR up and now it's on dev behind a feature flag and
+- It's very minimal but did some testing this morning and that seems to be working just fine so
+
+Today
+- So today I will be adding more functionalities to that
+
+### 10/12/21
+Yesterday
+- I was also in the Create Incidents meeting
+- I continued working on the UI for that and also
+- went back to recovery to fix a bug that Joel found and pushed that out as well
+
+Today
+- I'm back on Create Incidents and I'll try and get a protype up by the end of the day
+
+### 10/11/21
+Friday
+- I met with Jeremy in the morning to discuss the Create Incidents UX, the feature flag removal, and also the validator script
+- So I worked on those most of the day and finished up the feature flags and validator scripts done
+
+Today
+- I have a meeting to talk about the Create Incidents UX design and I'll continue to work on that 
+
+### 10/8/21
+Yesterday
+- I started looking into the Create Incidents story and started implementation for that
+- Got most of the UI layout done and
+- Also this morning I pushed up the PR for the recovery to fit Joel's changes
+
+Today
+- I will be back on creating incidents and additing the logic and the functionality 
+
+### 10/7/21
+Yesterday
+- I finished up removing the enhancement flag in feature flags
+- And Hunter found an issue in identity so I fixed that
+- Then moved onto the recovery manager restore change that I just have ready locally for now
+
+Today
+- I will be off today at 3 but Joshua and Mark, I will need to talk about what my next task is at some point
+
+### 10/6/21
+Yesterday
+- I continued working on removing the feature flags and got all of ones that I pushed in tested
+- I'm still looking through the enhancement flag
+
+Today
+- But I will finish that up this morning and then go back to recovery to make the restore changes
+
+### 10/5/21
+Yesterday
+- I worked on removing the feature flags from the frontend and I got a good bit of it done so
+
+Today
+- I'm going through each one and validating that on staging
+- I have a couple more longs to finish but I should finish that today
+
+### 10/4/21
+Friday
+- I worked on adding the validator scripts
+- And I got through all of the repos except for the 2 that I need to talk to Jeremy about so
+
+Today
+- I'm back on removing feature flags and testing those changes
+
+### 10/1/21
+Yesterday
+- I talked with Jeremy on the feature flags that need to be removed from the frontend and started working on that
+- And also this morning talked with Jeremy again to learn about the new validator change so I just created a list of repos that I need to go through so
+
+Today
+- I'll be working on both of those :)
+
 ### 9/29/21
 Yesterday
 - I continued hardening the recovery manager page and got a couple of prs there but everything should be in now so

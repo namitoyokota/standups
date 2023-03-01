@@ -12,6 +12,244 @@ Today
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
 ## Hexagon
+### 3/31/21
+Yesterday
+- Continued to work on the front end side of the end to end performance test
+- Finished up implementation for interacting with units and notifications
+- Started working on the map at the end of the day but could not figure out how I can move on the map with either drag and drop or arrow keys
+
+Today
+- Will do more research on that. Have some ideas on what I can try but if it doesn't work, will go ahead and get started on the 2nd half of the interactions which will be alarms, assets, and devices
+
+### 3/30/21
+Yesterday
+- Started working on refactoring the front end performance test according to the discussion from last Friday in the sync up meeting
+- There was a good bit of changes I needed to make then I thought so that took longer than I expected but I did get a really good foundation to build on top of today and also finish all of the incident interactions
+
+Today
+- Going to move on to finishing up units and notifications
+- Start working on interacting with the map
+
+### 3/29/21
+Friday
+- Had a meeting for the performance test with Mark and Joshua to teach us the dynamic duo or the youngins I forget what Mark calls us but we talked about the devices and how other capabilities work with that
+- Started working on a plan going forward and how all of the front end automations will work
+- Set up a workspace and the tabs specifically designed for the load test
+- Also implemented assets and alarms reading from the console on my end just so I can focus the user interactions for today
+
+Today
+- Aim to finish up the interactions with incidents and units
+- So tomorrow I can get started on devices
+
+### 3/26/21
+Yesterday
+- Started implementations for the devices
+- Got the frontend data logging for the creates, updates, and deletes to the console
+- Got the script to enable reading that data (need testing)
+- Finished up triggering the test to end at any time
+- Combined all that later in the afternoon and ran some tests (seem to go pretty well)
+
+Today
+- Have a performance test sync up
+- Test devices and hopefully finish that up
+- Work on a few minor bug fixes that I found from yesterday's test
+
+### 3/24/21
+Yesterday
+- Worked on some minor bug fixes and cleaned up some code for the performance test tool
+Pushed that to the repo but had some build issues and I think Joshua is going to try and make an
+exclusion if he has time
+- In the afternoon, met with Austin and trying to figure out how I can add a manual trigger to end the test anytime
+- That implementation took longer than I thought but did get that finished
+- This morning, I removed the entityID attributes from the DOM that I added last sprint for incidents, units, and devices since there is no need for that now
+
+Today
+- Look into the build issues like I said earlier
+- Start some documentation on what I've worked on and some of the ideas I have for moving forward
+- May get started on logging devices on the frontend and adding the data recording part for the script as well
+
+### 3/23/21
+Yesterday
+- Mostly finished implementations for functions to interact with incidents and units for the frontend side of the performance test tool
+- Ran different cases of load tests to test my script. Most of the tests seems to run perfectly.
+- Found a bug that I just fixed this morning. Took me a little while to replicate.
+
+Today
+- I have a few more minor tweaks that I needs to make
+- Afterwards, I'm going to run some more tests just to validate the fixes
+- And work on cleaning up the code so I can push the code up to the repo this afternoon or maybe tomorrow
+
+### 3/22/21
+Friday
+- Was able to get a lot of small tasks done for the front-end script of the performance test tool
+- Finished functions for switching tenants, workspaces, presets and tabs
+- Finished up all of the metrics that I could think of to print out in a log file and also the configurations
+- Research any ways that I can trigger the unit test to end at any time but couldn't find any way so ended just simply adding the date to the end time configuration so running the test for multiple days should be possible now
+
+Today
+- Finish up automations for interacting with incidents and units
+- Planning to run a small load test so I can test all of the things that I worked on Friday and see if I can improve and prepare for the big load test soon
+
+### 3/19/21
+Yesterday
+- Worked on hardening the load test tool specifically on the data reading aspect
+- Got to run a small load test with Austin for incidents and units concurrently and that seemed to work perfectly
+- After the meeting, I had a lot of small tasks going forward so ended up spending time organizing those and documenting them
+
+Today
+- I'm going to focus on preparing for user interactions so a lot of small tasks from my notes
+- Like swapping tenants, workspaces, and presets
+- Making sure I get all of the edge cases and error detections
+- I also have some research to do so that's what I'll be working on today
+
+### 3/18/21
+Yesterday
+- Continued working on the front end load test
+- Finished up hardening for reading data from the console for incidents and units
+- Added more metrics for the result output
+- Made some changes to the load test harness script
+- Started working on hardening for the front-end
+
+Today
+- Few changes to the metrics
+- Add a few more configurations
+- Finish up hardening for the front-end interactions with incidents and units
+- Start adding more cases of user interactions afterwards
+
+### 3/17/21
+Yesterday
+- Finished up reading incidents from console and got that tested
+- Worked on making changes to the frontend to call CommonLogging for Units (created PR)
+- Met with Austin for a sync up and he suggested that I would use the nuget package to create Incident and Units objects for better modularity instead of creating my own classes
+- Had trouble with dependencies yesterday but finally got that figured out this morning
+
+Today
+- I'm going to finish up reading from the data from the console
+- And start on the hardening for that since Austin seems like he's in a good spot
+
+### 3/16/21
+Yesterday
+- Worked on recording the incident data from the console
+- Took me longer than I expected just because I had to combine the SignalR response I get and the API calls from the HTTP response but I think I have that finished
+
+Today
+- Will run some tests to make sure incidents data is caught and stored correctly
+- Move onto units but that shouldn't take a long time
+- Continue to work on the frontend automations
+
+### 3/15/21
+Friday
+- Worked on recording the metrics into a log file after the test for the performance test script
+- Listened in on group testing meeting for activity monitoring
+- Then moved on to recording of the data itself from the console
+- Ran into issues of reading objects so ended up changing the frontend to return the string of the object instead of the object itself
+- Got help from Jeremy
+- Created a PR for that change and the changes looked good on the dev
+
+Today
+- This morning, I will finish up recording of the data
+- Adding more configurations to the test
+- And continue adding more automation scripts
+
+### 3/12/21
+Yesterday
+- Worked on a lot of the refactoring for the automation script
+- Started testing for incidents, basically done with that
+- Still not seeing Jeremy's changes on the dev for the console logs, so Jeremy if you could take a look at that sometime today if you have time, that'll be great. I could also be doing something wrong so not sure why.
+- Also had group testing for notifications
+- Mark, the issue you encountered with yesterday at the notifications group testing where you expand on a unit and you can't scroll down afterwards, we said that was only for units on staging, but I noticed it was there on incidents also on dev this morning. Don't know how helpful that is but wanted to let you know.
+
+Today
+- Finish up testing for incidents
+- Start on units but that should be very similar so shouldn't be too hard
+- Group testing for activity monitoring
+- Hoping to get to reading data from console log
+
+### 3/11/21
+Yesterday
+- Had a meeting with Jeremy and Joshua on the frontend like they said
+- Talked with Joshua afterwards on some automation ideas and moving my 2019 project into 2017
+- Started working on setting up an architecture for the new approach
+- Got to a really good spot there. Ready to implement new scripts.
+
+Today
+- Group testing for notifications
+- Start implementing some automations
+- Get started on reading the console log and catching data from there
+
+### 3/10/21
+Yesterday
+- Had a performance test meeting at 11
+- Prepared my script and a demo until then
+- The meeting went well
+- We discussed how we can approach the front end better
+- In the afternoon, I spent a lot of time playing with the front end so I will have some ideas to automate real user interactions
+- Took some notes
+
+Today
+- Meeting at 10 with Jeremy and Joshua on how I can record the front data better
+- Will continue to work on the content of the meeting for today
+
+### 3/9/21
+Yesterday
+- Kept working on the scroll bar that I was running to issues to Friday
+- Ended up having to use a JavaScript query but that's working now
+- Kept working on adding finishing touches to the notifications, got to a good spot there
+- Ran a couple of tests to test my tooling
+- Had to add some error handling this morning
+
+Today
+- Have a performance test sync up meeting like they said, and the rest of the day depends on that
+- Probably a lot of clean up and pushing the code
+- Maybe even get started on devices
+
+### 3/8/21
+Friday
+- Continued to work on the performance test for Units
+- Made a few fixes
+- But have been running into a lot of issues with scrolling on elements
+
+Today
+- I think I finally got that working just now, so will be adding more to that today
+- Also, have not yet finished with reading notifications so I'm hoping to get all of that finished today
+
+### 3/4/21
+Yesterday
+- I've been using a tool called Taurus to turn my front end unit test into a load test with multiple
+clients
+- Talked to Joshua a bit, since this is a python project, I worked on implementing this tool in a PowerShell script to simplify the build process. Got that done.
+- Yesterday, I edited the front-end for devices to add entity id, created a PR for that
+- Also met with Austin to discuss testing of units
+- Rest of the day was spent working on reading units from the dom. Realized that I need to change my method a little so
+
+Today
+- Will continue to work on that today
+
+### 3/3/21
+Yesterday
+- Updated the incidents to read the entity id from card component attribute
+- Ran some tests to ensure that it was working
+- Updated units to also read the entity id and use that as the unique identifier
+- Start working on notifications and setting up an architecture since it was previously designed just to listen to incident notifications
+
+Today
+- Going to continuing to work on notifications but implement units
+- Hoping to get to a good spot there by the end of the day
+- Catch different pages that can be loaded like 502 and onboarding process so it can act accordingly and not get stuck
+
+### 3/2/21
+Yesterday
+- Met with Jeremy to get help on setting up the Angular environment
+- Got that set up and spent some time looking through the folder to try and understand the architecture and also read some of the wikis
+- Started working on adding the entity IDs as attributes for the common-card component and finished that for Incidents and Units
+- Created a PR for both
+
+Today
+- This morning I looked through the staging and the dev environment to make sure the changes took place correctly
+- Working on implementing a read for incident IDs in the performance test script
+- Hoping to get a small test run in for incidents
+- Continuing to work more on load testing units that I took a pause on last week
+
 ### 3/1/21
 Friday
 - Move my project directory in WebRoot and pushed that code in the pipeline
@@ -23,7 +261,6 @@ Friday
 Today
 - I'm meeting with Jeremy to get help on setting up Angular
 - Work on hiding the incident IDs in the DOM
-
 
 ### 2/26/21
 Yesterday
@@ -173,7 +410,6 @@ Today
 - Have a performance test meeting to discuss our test results from yesterday
 - Just some preparations for the sprint reviews
 
-
 ### 2/9/21
 Yesterday
 - Started a load test starting at 2 o'clock
@@ -294,7 +530,6 @@ Today
 - Trying to fix bugs with Python scripts
 - Testing the new framework using Java and Junit testing
 - Meeting with Austin to plan how we can put our work together
-
 
 ### 1/26/21
 Yesterday

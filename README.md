@@ -15,6 +15,7 @@ Today
 
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
+
 ### 10/29/21
 Yesterday
 - We had a sync up meeting for Create Incidents in the afternoon so spent the morning time jotting down some notes and testing

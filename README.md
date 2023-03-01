@@ -12,6 +12,163 @@ Today
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
 ## Hexagon
+### 8/31/21
+Yesterday
+- I finished up making changes to the organizations list component in the tenant repo
+- Got that finished and also made the final changes to recovery but ran into an error so talked to Jeremy about that and he helped me out with that this morning so
+
+Today
+- I'm going to push that PR up but I'm also having some service fabric issues after reinstalling yesterday so I'll also be looking into that as well
+
+### 8/30/21
+Friday
+- I finished up all of the refactoring for Joel's backend changes to recovery
+- And also got all of the styling updated and tested the notifications as well so finished up that PR at the end of the day and today
+
+Today
+- I'm going back to tenant to make a small change and then
+- Will be back on recovery to finish up the ui before I connect it to webroot
+
+### 8/27/21
+Yesterday
+- I finished up the refactoring to match Joel's backend changes for recovery
+- And after that I started working on a lot of the smaller tasks for the UI so
+
+Today
+- I'm going to get that PR up and also
+- Joel's working on changes to the notifications so after he's done with that, I'll be making those changes and
+- I also need to go back to tenant to make a small change there as well
+
+### 8/26/21
+Yesterday
+- I continued working on the recovery manager and worked with Joel about his backend changes
+
+Today
+- Finishing up refactoring for that late yesterday so I'm working on a PR right now and after that, I'll be working on just hardening and try to wrap it up
+
+### 8/25/21
+Yesterday
+- Continued working on making the changes to the recovery manager UI
+- And talked with Joel throughout the day so
+
+Today
+- I'm going to do some testing this morning and then work on the styling and more smaller tasks after that
+
+### 8/24/21
+Yesterday
+- We had a recovery manager meeting and came up with some refactoring to do
+- So worked on that for the rest of the day and
+
+Today
+- Will be more of that and also coordinating with Joel on his backend updates
+
+### 8/23/21
+Friday
+- I continued working on the recovery manager ui and finished up the admin page also with a lot of testing and bug fixes
+
+Today
+- I'll be doing more testing and then have a sync up meeting at 1:30
+
+### 8/20/21
+Yesterday
+- I continued working on the recovery manager and putting in some final features in and some other bug fixes so
+
+Today
+- I'm going back to finish up the admin page and from there will be a lot of testing and bug fixes
+
+### 8/18/21
+Yesterday
+- I continued working on the notifications for the recovery manager and got that done at the end of the day so working on that PR now and then after that
+
+Today
+- I will be working on a lot of the small tasks that I've been holding off on
+
+### 8/17/21
+Yesterday
+- I started working on the notifications for recovery manager
+
+Today
+- And I'm hoping to wrap that up today
+
+### 8/16/21
+Friday
+- I talked with Joel in the morning to talk about an issue with tokens
+- And ended up figuring out a different issue also so I fixed that
+- And then met with Jeremy to get some help on the recovery manager and figured out that I need to refactor some code
+- I have a PR up for that
+
+Today
+- I will be working on notifications
+
+### 8/13/21
+Yesterday
+- I found an issue in tenant so discussed with Jeremy on that
+- And after he got that fix in, I added a small change to recovery manager, finished that pr
+- And started looking through other repos to try and understand the notifications
+
+Today
+- I'm going to get some help from Jeremy on signalr and hopefully finish up signalr today
+
+### 8/12/21
+Yesterday
+- I finished up the global pipelines page for the recovery manager
+- And got some help from Hunter on a lot of the styling issues I was having
+- That PR is up now so
+
+Today
+- I'll be working on implementing SignalR and updating the UI live accordingly
+
+### 8/11/21
+Yesterday
+- I finished up a popup dialog for restore and restoring by capabilities
+- Got a pr up for the UI but the restore operation itself is failing so
+
+Today
+- I'm going to be looking into that
+- And then move on to fixing some of the styling issues and then the global pipelines page
+
+### 8/10/21
+Yesterday
+- I'm still working on the recovery manager ui
+- I got most of the organizations and system page done so created a pr for that
+- And then start working on a dialog to pop up on restore
+
+Today
+- I'm going to continue on that
+- And then work on one more task afterwards
+
+### 8/6/21
+Yesterday
+- I fixed a bug in common tenant and then
+- Went back to the recovery manager ui and created a pr for what I had so far
+- Jeremy got the upgrades done at the end of the day but
+
+Today
+- I'm having issues with those changes so I'm going to try fix that and if I get solve that, then I'll continue on with the implementations
+
+### 8/5/21
+Yesterday
+- I continued working on the recovery manager UI and
+
+Today
+- I have a couple of things to change that Jeremy mentioned and along with a few issues so I'll be working on that
+- And hopefully get a PR up if I get to a good stopping point
+
+### 8/4/21
+Yesterday
+- I continued working on the recover manager UI
+
+Today
+- I'm hoping to get to a good stopping point today so I can push all of the changes and Jeremy can work on the upgrade
+
+### 8/3/21
+Yesterday
+- I spent the morning looking through the auditing checklist and some email things
+- And then continued working on the recovery manager ui for rest of the day and
+
+Today
+- I will be more of the same working on the recovery manager
+
 ### 7/24/21
 - I was out all last week so this morning I spent some time catching up on everything
 

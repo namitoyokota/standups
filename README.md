@@ -26,6 +26,171 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 10/27/22
+Yesterday
+- We had a meeting to discuss the shape design
+- And then talked with Jeremy on an approach to implement everything
+- I then started working on testing an injection workflow for the linked cards so
+
+Today
+- I'm going to continue testing that and start implementing the support to all of the capabilities
+
+### 10/26/22
+Yesterday
+- I tested my association code and got some help with Jared on that
+- I also fixed a incidet card bug at the end of the day
+
+Today
+- I'm moving over to shapes to test out the new association adapter and
+- We also have the UX review for shapes
+
+### 10/25/22
+Yesterday
+- I continued working on the shape association work
+- I have most of it implemeneted but I had issues with the local environment in the afternoon
+- I got help from Tyler with publishing webroot and it seems to be working for me now
+
+Today
+- I'm gonna start testing the association code and
+- I also got the UX design so I'll start looking through that as well
+
+### 10/24/22
+Friday
+- I started working on adding a new aggregated association service for shapes
+
+Today
+- Will be more of the same and I'll also be out for about an hour at 2
+
+### 10/21/22
+Yesterday
+- I continued working on the Shape Card UI
+- I talked with Jeremy throughout the day on things related to associations
+- Mark and Joshua if you guys have time after this I have a few questions about shape associations
+
+Today
+- Will be more of the same and
+- I'll also be off at 3
+
+### 10/20/22
+Yesterday
+- I created new components in Incident and Unit to be used in the Shape Association UI so
+
+Today
+- I'll be adding logic to display those
+
+### 10/19/22
+Yesterday
+- I met with Jeremy in the morning to discuss the new shape UI work
+- And started looking through the capabilities for reusable components
+- I found that Incident and Units are missing them so
+- I started working on the Incident
+
+Today
+- I'll finish that up and then move on to making the same component in Unit
+
+### 10/18/22
+Yesterday
+- I investigated issues with the localization change I made
+- I also found a bug in identity with changing the language so I talked with Justin on that
+- At the end of the day I got to a good stopping point with localization so
+
+Today
+- I'll get started on the Shape Association UI
+
+### 10/17/22
+Friday
+- I pushed up the change for using the new translation pipe but
+- That ended up having issues with some strings not loading
+- So I reverted back that change at the end of the day
+
+Today
+- I just pushed up the fix so I'll test that once it's up and then
+- The rest of the day will probably be investigating how to improve the performance
+
+### 10/14/22
+Yesterday
+- I finished up the last bit of changes for the localization interface and
+- Worked on implementing that into the translation pipe
+- I have all of that working so
+
+Today
+- I'll be working on testing that and hopefully pushing that up if there are no issues
+
+### 10/12/22
+Yesterday
+- I finished refactoring the tenant repo to use the new platform package
+- And then started researching and brainstorming how to write our own translation service
+
+Today
+- I'll be working on implementing that
+
+### 10/11/22
+Yesterday
+- I put up a fix for the data sharing bug and tested that
+- I then went back to the platform refactor and notifications is done so
+
+Today
+- I'll try to finish refactoring tenant to use platform then
+- Move on to implementing a new translation pipe
+
+### 10/10/22
+Friday
+- I put up a PR for platform work in Notifications and then
+- Investigated a data sharing toggle bug
+- I was able to fix that but during testing I found another issue that may be related so
+
+Today
+- I'm gonna go look at that and then
+- Go back to platform work afterwards
+
+### 10/7/22
+Yesterday
+- We had automated testing meeting and talked with Karen afterwards on the plan going forward so
+- I looked through some of her code and have an idea how it can be moved into npm package so I'll discuss with Jeremy when he comes back on that
+- I also did a good bit of research on how to implement some of the complicated unit tests for platform packages so
+
+Today
+- I'll look into the data sharing bug and after that
+- Will be more research and testing
+
+### 10/6/22
+Yesterday
+- I continued working on the unit tests for the platform packages
+- I also fixed the issue with the user icon not showing initials but that was a result of Jeremy's change to fix the user status so I'll discuss with Jeremy on that when he comes back to make sure I'm not breaking anything
+- I then investigated the notification issue on prod and couldn't find much ao
+
+Today
+- We'll probably do more investigation on that and
+- I will also get started on some research related to the platform unit tests
+- And we also have automated testing sync up
+
+### 10/5/22
+Yesterday
+- I investigated the webroot build issue and then
+- Started on unit tests for tenant
+
+Today
+- I'll try to finish that up and
+- Also look into a bug on the board with the initials not showing
+
+### 10/4/22
+Yesterday
+- I migrated the notification code into a platform package and
+- I then started on writing unit tests for it so
+
+Today
+- I'm looking into a build issue with one of the dependencies but after that
+- I'll finish up unit tests for notifications
+- And then move on to the tenant repo
+
+### 10/3/22
+Friday
+- I continued working on the platform refactor for Common Tenant and
+- Wrapped that up so
+
+Today
+- I'll be moving on to Common Notifications
+
 ### 9/30/22
 Yesterday
 - I continued moving the tenant repo into a platform package

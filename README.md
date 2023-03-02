@@ -29,6 +29,161 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 3/31/22
+Yesterday
+- I wrapped up all of the bug fixes on the board so got with Jeremy in the afternoon to take some load off of him
+- I started working on the Smart Advisor task
+- I got my first PR in this morning so I'll continue to work on that today
+- I saw John is going to be out until Monday so I can take on the Changelog bugs afterwards
+
+### 3/30/22
+Yesterday
+- Was mostly bug fixes for me
+- I fixed a couple of bugs on the Layout Manager and then investigated a few other bugs and put my findings on the stories
+- In the afternoon Chad found an issue in the licensing dashboard so I also fixed that
+
+Today
+- Will be more of the same
+- I have one more bug on the layout manager that I'm working on and then I'll go back to closing the bugs from yesterday since Jeremy responded to my comments
+
+### 3/29/22
+Yesterday
+- I started testing the Data Sharing Changelog UI and surprisingly didn't find any bugs so I moved onto
+- 2 bugs on the board
+
+Today
+- Today I saw a few more bugs on the Layout Manager so I'll try to investigate those first and
+- probably discuss with the Tyler and John to coordinate on all of the tasks that we have
+
+### 3/28/22
+Friday
+- I was on PTO but
+
+Thursday
+- I worked on the last few passes for the Data Sharing Changelog so
+
+Today
+- will be mainly testing and any bug fixes that come from that
+
+### 3/24/22
+Yesterday
+- I wrapped up the UI for displaying the descriptions in the Data Sharing Timeline story
+- Then I investigated some ways to clean up the data more after futher discussion with Chad
+- And I think I have a good solution so I'm getting ready to push up that change and discuss with the CJIS group to get their thoughts
+- After that I will work on testing and hardening all of the Changelog
+- And I'll also be off on PTO tomorrow
+- One more thing, I updated my local services yesterday afternoon and now I can't seem to log in. Are there any known issues in identity?
+
+
+### 3/23/22
+Yesterday
+- I continued working on the Data Sharing Timeline story
+- I have the last PR ready so I'm going to push that up this morning but after that
+- Chad and I discussed some improvements to the UI so I need look into how I can implement that but other than that
+- I'll move onto testing and hardening
+
+### 3/22/22
+Yesterday
+- I fixed a couple of bugs in the Injectable component in Identity
+- And then continued working on the Data Sharing Timeline story
+- I got most of the main features done so
+
+Today
+- I'm going to try and wrap up the final UI components and also helping out John with tombstone support as needed
+
+### 3/21/22
+Friday
+- I started working on the Data Sharing Changelog and got the basic layout done but I found some issues with the injectable component I made the week before in Identity so I worked on that fix and
+- I just finished that up this morning so
+- I'm back on Data Sharing Changelog today
+
+### 3/18/22
+Yesterday
+- I wrapped up the tombstone support for the Access Manager changelog story
+- Towards the end of the day I started working on the changelog for the Data Sharing page so
+
+Today
+- I'm going to push up my first pass and continue working on that for the rest of the day but
+- Will go back and forth with the Access Manager as needed for any bug fixes
+
+### 3/26/22
+Yesterday
+- I spent some time testing the Access Manager changelog and fixing all of the bugs that I found
+- I also worked on adding the tombstone support and trying to understand how it all works but realized that I need Chad's help with a couple of new API endpoints so
+
+Today
+- I'll continue on with adding the tombstone service and also continue hardening the changelog
+
+### 3/15/22
+Yesterday
+- I had a discussion with Jeremy on how to handle tombstoned data in the Access Manager and we concluded that this was going to be more time consuming than we thought but
+- I started working on that and I have my first pass through ready for refactoring the store service so I'll push that soon and
+
+Today
+- I will continue working on this and hopefully wrap that up
+
+### 3/14/22
+Yesterday
+- I worked on adding the new lock out case to the Access Manager changelog and also managing the tombstoned data so I can display old refresh tokens and user sessions
+- I'm still working on that today but after that will be a lot of testing and hardening
+
+### 3/11/22
+Yesterday
+- I continued working on the Access Manager Changelog story
+- I finished up the filtering and sorting features so I discussed that and some other changes with John
+
+Today
+- I'll be implementing the chips to indicate what filters are turned on now and I also have a few changes to make from a discussion with Chad yesterday
+
+### 3/10/22
+Yesterday
+- I worked on the new filter pane for the Access Manager Changelog
+- All of the UI is finished so that PR is up now
+
+Today
+- I need to discuss the change with John so he can refactor his filter pane to share the same code and
+- Then I'll move on to connecting the filtering logic with the API
+
+### 3/9/22
+Yesterday
+- I finished up the infinite scroll feature in the Access Manager Changelog so
+
+Today
+- I'll get started on the filtering feature
+
+### 3/8/22
+Yesterday
+- I wrapped up the main UI for the Access Manager changelog so I'm going to push up those changes this morning and will start working on the infinite scroll bar today
+
+### 3/5/22
+Friday
+- I worked on the Access Manager Changelog and
+
+Today
+- I will work on implementing the main UI and the infinite scroll feature
+
+### 3/4/22
+Yesterday
+- I pushed up a first couple of passes through for the Access Manager Changelog and I will continue on the Changelog today
+
+### 3/3/22
+Yesterday
+- I started working on the Access Manager Changelog story and I have my first pass ready so I'll push that up this morning after John's PR goes through and will continue to work on that today
+
+### 3/2/22
+Yesterday
+- I helped John with his PR and started looking into his code to see how I can implement the Access Manager Changelog and also share some of the code
+- In the process, he found a bug in Common Libraries so I had to track down where all that was being used but I'm finishing that up this morning and after I finish testing that,
+- I will get started on the new Changelog dialog
+
+### 3/1/22
+Yesterday
+- I started looking into the Access Manager Changelog story and asking Chad some questions on that
+- I also looked through John's implementation and
+
+Today
+- Will be more of the same
+
 ### 2/28/22
 Friday
 - I investigate a bug where the partial match of keywords wasn’t bringing up the correct icon in the Incident Creation wizard and I got that fixed

@@ -26,6 +26,130 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 7/29/22
+Yesterday
+- I started looking into a line buffer bug and figured out that there was some refactoring required so I worked on that for most of the day
+- I also reviewed the documentation for line buffer as well
+
+Today
+- I'll be back on the line buffer bug and hopefully finish that up
+
+### 7/28/22
+Yesterday
+- I continued working on the action plan associations and
+- Met with Jeremy some on that
+
+Today
+- I'm going back to shapes to look at a line buffer bug
+
+### 7/27/22
+Yesterday
+- I worked on the draw tool fix to work with the new leaflet upgrade and then
+- Got with Jeremy in the afternoon on action plans association task so
+- I started reading through the code for that
+
+Today
+- I'll continue working on action plan associations
+
+### 7/26/22
+Yesterday
+- I was part of the automated testing syncup and then afterwards
+- I started working on the leaflet upgrade
+- I spent a lot of time reading through the documentation and testing the change that broke the draw tool and I have an idea so
+
+Today
+- I'll be working on that fix and testing those changes
+
+### 7/25/22
+Friday
+- I was off on PTO but
+
+Thursday
+- I started working on the new error dialog and then
+- Added that to the shape manager
+- I also helped Emma with some of the buffer testing
+
+Today
+- We have automated testing sync up and afterwards
+- I'll get started up upgrading leaflet
+
+### 7/20/22
+Yesterday
+- I finished testing the line shape so the UI side should be ready for testing for Velvet and Lyna
+- I then moved onto the 2nd pass of the npm refactoring
+
+Today
+- I'll continue with that and once I finish
+- I'll go back to some of the bug fixes
+
+### 7/19/22
+Yesterday
+- I finished a few more repos of the npm packge updates
+- And then moved on to testing the line buffer work
+- I found and fixed a few bugs there and
+- I also worked on a few more bugs on the board
+
+Today
+- I'll do more testing of shapes and then
+- Will be back on the UI refactor work
+
+### 7/18/22
+Friday
+- I continued working on the UI refactoring story
+- We're pretty close to being done with the first pass so
+
+Today
+- I'll be back on Shapes to test the line buffer work and then
+- Go back to the second pass of the UI refactor whenever that's ready
+
+### 7/15/22
+Yesterday
+- I worked on the npm package refactoring and
+- I'll be doing more of that today
+
+### 7/13/22
+Yesterday
+- We had a few automated testing meetings and
+- I also spent some time reading the documentation for a potential tool
+- I also pushed up a new PR in Shapes for the Line Buffer work
+- And then spent rest of the day looking at bugs on the board
+
+Today
+- We have a meeting to discuss the NPM packages
+- And then I'll be back on bug fixes
+
+### 7/12/22
+Yesterday
+- I wrapped up the first pass for the line buffer implementation in Common Map and then
+- Started working on the Shape changes
+- I have most of it done so
+
+Today
+- I'll create my PR for the shape and then start testing it all
+- So I'll be working on hardening and bug fixes that come up and
+- I'm also in the automated testing meetings as well
+
+### 7/11/22
+- I was on PTO for the whole week last week so
+
+Today
+- I'm doing a lot of catching up and then
+- I'll start to push up all of the changes I have for the line buffer UI
+- so I'll be working on those PRs and testing if I get to it
+
+### 7/1/22
+Yesterday
+- We had a discussion for the buffer zone backend work
+- I then worked on a couple of bugs on the board
+- I also finished up the last bit of changes to the line buffer work so
+
+Today
+- I created a new PR for the line draw tool in Common Map
+- I'm sure things will come up from that so I'll be working on that completing that PR
+- Afterwards I'll test the changes to Shapes and push that up
+- Other than that it will be lot of testing
+- And I'll also be out the entire week next week
+
 ### 6/29/22
 Yesterday
 - I spent most of the time testing and cleaning up the code for the Line buffer implementation in the map repo

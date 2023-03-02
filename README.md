@@ -29,6 +29,148 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 2/28/22
+Friday
+- I investigate a bug where the partial match of keywords wasn’t bringing up the correct icon in the Incident Creation wizard and I got that fixed
+- And I also worked on a couple more bugs for Priority Manager and User Manager
+
+Today
+- I'll look into any more bugs on the board and then start looking into the Access Manager Changelog
+
+### 2/25/22
+Yesterday
+- Was investigating a lot of bugs with Common Keywords and the Incident repo
+- I think I have most of the Icon Manager bugs wrapped up so
+
+Today
+- I'll get started on the Create Incident bug that Jeremy was seeing and hopefully start looking into the Access Manager changelog story
+
+### 2/23/22
+Yesterday
+- I wrapped up the final bit of changes for the Priority Manager and the Icon Manager
+- There is one more task for duplicate icons that I'm waiting on the UX for so
+- I'll hopefully wrap that up today and
+- Probably spend a lot of time testing and also helping Velvet and Lyna as needed
+
+### 2/22/22
+Yesterday
+- I investigated a bug in the Icon Manager with Justin
+- And then discussed the Priority Manager and the duplicate icons with Philip and Jared from the UX team
+- In the afternoon, I worked on removing the rest of frontend feature flags
+- And I also added a remove button to the icons uploaded by the user so
+
+Today
+- I'm going to implement a fix for the Icon Manager bug to fit the change from Justin
+- And then go back to the Priority Manager to wrap up all of the tasks there
+
+
+### 2/21/22
+- I was off on PTO Friday but
+
+Thursday
+- I continued hardening the Icon Manager and also talked to Lyna and Velvet throughout the day so
+
+Today
+- I have some things to catch up on and then will start looking into an issue Lyna was seeing where the uploaded icon doesn't show up
+- After that will most likely be more testing and bug fixes
+
+### 2/17/22
+Yesterday
+- I continued on with the icon manager work and also investigated some issue of duplicate notifications that we were seeing on Incident updates with Joel
+- I also fixed the last bit of priority color bugs for Incidents as well
+
+Today
+- I'm going to push up the final changes to Icon Manager and start testing it on Staging
+
+### 2/16/22
+Yesterday
+- I pushed the last bit of changes to the recovery manager and
+- Fixed the bug for the priority manager token
+- I also finished up the new upload icon feature so
+
+Today
+- I'm having to upgrade some of the APIs for Common Keywords to the V2 version and after I finish that, I'll get started with testing all of the icon manager changes and fixing any bugs that I find
+
+### 2/15/22
+Yesterday
+- I discussed with Joel on some changes to make to the organization list and got that done and
+- Also continued with the icon manager upload feature
+
+Today
+- I'll push up the changes for icon manager to start testing and
+- Also have a few more minor fixes for the recovery manager
+
+### 2/14/22
+Friday
+- I worked on wrapping up the new upload icon story
+
+Today
+- I still have a few things I have to test and fix there but
+- I'm also looking into editing something in the organization list and the recovery manager for Joel
+- So I need to talk to Joel and Jeremy on that this morning then afterwards I'll be back on icon manager
+
+### 2/11/22
+Yesterday
+- I met with Mark Joshua and Justin to discuss the story on uploading new icons so
+- I spent rest of the day working on that and
+
+Today
+- Will be more of the same
+
+### 2/10/22
+Yesterday
+- I wrapped up the last bit of changes to the Icon Manager enhancements
+- And then mvoed onto removing feature flags from the frontend
+- I got about 4 of them done and
+- Lyna also found a bug in the Priority Manager so I fixed that as well
+
+Today
+- I need to talk to Mark and Joshua about my next task and will be working on that for rest of the day
+
+### 2/9/22
+Yesterday
+- I continued the enhancements in the Icon Manager
+- I have my first PR ready so I'm gonna test everything after that goes through and
+- I think I'll have a few more changes to make after that
+
+### 2/8/22
+Yesterday
+- I wrapped up the filtering feature in Icon Manager so
+
+Today
+- I'll move onto adding a new preview pane
+
+### 2/7/22
+Friday
+- I wrapped up the incident expiration change and also the priority color changes
+- And I started working on the enhancements to the icon manager so
+- I will continue on that today
+
+### 2/4/22
+Yesterday
+- I found out that the incident expiration was using 2 different data types so had to put in a fix for that and then
+- Started working on applying the priority color set from the priority manager to take effect in the incident list
+- I have that finished but I realized that this was hard coded in multiple places so
+
+Today
+- I need to discuss this change with Jeremy and then after I wrap this up, I'll switch back to icon manager
+
+### 2/2/22
+Yesterday
+- I continued working on hardening the priroity manager and
+- Also fixed the incident expiration time bug that Lyna found
+
+Today
+- I have a few more bug fixes to go through and then start looking at the Icon Manager
+
+### 2/1/22
+Yesterday
+- I met with Mark and Joshua after standups to talk about the next task and then
+- Went back to bug fixes from Priority manager and
+
+Today
+- Will be more bug fixes and hardening
+
 ### 1/31/22
 Friday
 - I pushed up a fix for the priority manager page not loading with help from Jeremy and

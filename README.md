@@ -25,6 +25,155 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 11/29/21
+Wednesday
+- I got a couple of bug fixes in the morning and
+- I was on PTO in the afternoon
+
+Today
+- I'll be back on selecting incident icon by keywords
+
+### 11/24/21
+Yesterday
+- I continued started working on adding a select to Incident Icon in the Create dialog
+- Got the UI down and the API endpoint implemented but I need to talk to Jeremy about how to get that connected through the adapter
+- So then I worked on fixing the bugs on the board
+
+Today
+- I'm off at 12 so I'll push those PRs up and other bug fixes that I can get done
+
+### 11/23/21
+Yesterday
+- I started researching a new component to add the keywords field in that Jeremy and I talked about last week
+- I finished up the first pass through for the keywords field in Create Incident so that PR is up
+- And I started looking into the API for CommonKeywords with some help from Joel at the end of the day yesterday
+- This morning I looked into a potential change when creating New Channel but
+
+Today
+- I'll be back on keywords
+
+### 11/22/21
+Friday
+- I met with Johnny and Jeremy throughout the day and got the final PRs through to get the map injected on Create Incidents UI
+
+Today
+- I'm going to get started on Keywords component and also test out the map implementations from Friday after it goes through to staging
+
+### 11/19/21
+Yesterday
+- I finished up the feature to add a Incident Marker on Create Incidents Map with a lot of help from Jeremy and Johnny throughout the day
+- That PR is through so
+
+Today
+- I'm going back to CommonMap to expose some of the APIs then will be back on Incidents to reverse geocode the point on map to get the closet address
+- So if everything goes smoothly, I should be done with the map component today
+
+### 11/18/21
+Yesterday
+- I started working on injecting a map to the Create Incident wizard and talked to Johnny throughout the day
+- Also talked to Jeremy some about a couple of PRs I had and Joshua about some things here and there
+- I have the map working but having issues adding a Incident marker so I'll continue on that today and coordinate with Johnny as needed
+
+### 11/17/21
+Yesterday
+- I continued working on the injectable component in CommonMap for the geocoding search box
+- that PR is up now waiting for approval
+- I also got the change up for selecting primary contact to match the UI from Chat and that PR is also up
+
+Today
+- I need to talk to Johnny maybe after standup if no one's using this channel to get guidance on injecting a map to Create Incidents
+- So I'll get started on that today
+
+### 11/16/21
+Yesterday
+- I started working on implementing geocoding in CommonMap and
+- Talked to Johnny and Chad to get some clarifications in the afternoon
+- I'm making really good progress so
+
+Today
+- I'll continue working on that and see if I can get the first PR through
+
+### 11/15/21
+Friday
+- Was just bug fixes and small changes in the morning for Create Incidents
+- And then afterwards I started looking into the geocoding research Jared did and testing all of the REST APIs
+
+Today
+- I'm going to start implementing the new search component in Common Map
+
+### 11/12/21
+Yesterday
+- I finished up a new dialog to Add Remark to internally managed incidents
+- And I added support to upload multiple files and also refactered that styling
+- Those PRs are up so I'll test those once they go through today and
+- After that, I have one more small change for Remark to match Jared's change and then
+- I'll get started on adding Geolocation to Create Incidents
+
+### 11/10/21
+Yesterday
+- I continued working on bug fixes for Create Incidents and also added a new component to display Remarks
+
+Today
+- I'm hoping to finisht that dialog up and look for any bugs before the sprint review
+
+### 11/9/21
+Yesterday
+- I pushed up the changes for Data Sharing Networks
+- And then a few improvements came up in the Organization Manager page so I fixed that
+- And started working on the bug fixes for Create Incidents that Lyna's been finding
+- Half of that is done so
+
+Today
+- I'm going to continue working on that
+- Joshua if you can meet for just a second after standup I want to talk about how to display the remark history and also if the network groups are functioning correctly
+
+### 11/8/21
+Friday
+- Got clarifications on the data sharing networks and
+- Finally got everything cleaned up and working so
+- I'm going to push that change up this morning and
+- Afterwards I'll be back on incidents to fix the bugs on the board
+
+### 11/5/21
+Yesterday
+- I fixed the priority category step in onboarding and
+- Continued working on the network groups implementation from Stephen and I'm getting some clarifications on that today after standup
+- So I'm hoping to finish that up today 
+
+### 11/4/21
+Yesterday
+- I worked on the documentaiton for the frontend load test to explain the architecture of the project in the morning and sent that to Lyna and Charlotte
+- Got some cleanup done for Stephen's network groups changes so
+
+Today
+- I need to fix a few things for network groups and I'll push that PR up and
+- The onboarding for priority categories is having some issues with the REST API so I'll continue to look into that today
+
+### 11/3/21
+Yesterday
+- We had a meeting to talk about the frontend load test tool so
+- Spent some time in the morning going back to test that tool
+- After the meeting, I made a PR in incidents to fit Jared's changes
+- And also finished up the changes from Huner for the onboarding priority categories
+
+Today
+- I will go back to the load test tool and add more documentation for Lyna and Charlotte
+- And will sart working on Stephen's changes
+- And also priority categories onboarding seems to be having an issue like Johnny said so I'll go fix that as well
+
+### 11/2/21
+Yesterday
+- I was off on PTO but
+
+Friday
+- I added a blue status bar on Incident card to indicate its status and also added a new button to clear incidents if managed internally
+- Towards the end of the day I talked to Hunter and Stephen about their progress so
+
+Today
+- I'm catching up on the changes Jared made yesterday and I'll get that PR pushed up and after that
+- We have a meeting to talk about the load test tool for the front end that I made a while back
+- And then I'll start working on the changes for Hunter and Stephen
+
 ### 10/29/21
 Yesterday
 - We had a sync up meeting for Create Incidents in the afternoon so spent the morning time jotting down some notes and testing

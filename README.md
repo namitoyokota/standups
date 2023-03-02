@@ -26,6 +26,172 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 11/30/22
+Yesterday
+- I went through all of the capabilities to fix the duplicate shape name in app notifications
+- And then went back to shape for more hardening and bug fixes
+
+Today
+- Is my last day so
+- I'll be doing testing for shape monitor story and fix bugs as needed
+- And I'm also fixing bugs found from regression testing
+
+### 11/29/22
+Yesterday
+- I spent all day going through each of the bugs related to Shape Notifications
+
+Today
+- I'll be working on a fix for the bug Mark found where the app noitification shows duplicate shape names
+- I have that working in alarms so I'll have to go through all of the capabilities
+- Robert also sent me the monitor icon for the shape history I can use so I'll go add that today as well
+
+### 11/28/22
+Yesterday
+- I worked on fixing styling bugs for action plans and
+- Also talked with Jose about his whitelist work throughout the day
+
+Today
+- I'm testing my action plan changes and fixing a couple of more minor things
+- And I'll be back on testing shape monitor story
+
+### 11/22/22
+Yesterday
+- I went through all of the main capabilities to fix the shape hyperlink in the app notification and then
+- Fixed a few bugs that Lyna had found in the shape monitor UI
+- I also talked with Jose throughout the day to help answer his questions
+
+Today
+- I will be helping out Tyler with styling issues in actionplans
+- And talk with Jose as he needs
+
+### 11/21/22
+Friday
+- I talked with Charlotte to discuss the shape monitor workflow and then
+- I investigated a bug with the app notifications when you click on the Shape the hyperlink wasn't working
+- I was able to track that down and confirm it was working on Dev so
+
+Today
+- I'm working on that fix across all of the capabilities
+
+### 11/18/22
+Yesterday
+- We had group testing for shape notifications in the morning
+- And I spent rest of the day refactoring and fixing bugs that we found in the meeting
+
+Today
+- Will be more of the same
+- And I'm also off at 2 today
+
+### 11/17/22
+Yesterday
+- I focused on testing the shape monitor notifications
+- And fixed a few bugs I found there and
+- Also took notes on topics to discuss today in the meeting
+
+Today
+- We have that group testing and then
+- Will be working on whatever comes out of that
+
+### 11/16/22
+Leaving Message
+- I really loved working here so I'm so sad to leave. But it was just a too good opportunity for me to not take so there's nothing against this team or Hexagon as a whole. But everything I know now, I learned here from being here so thank you guys for being great co-workers. I'll still be in Huntsville though so I'll make sure to send my contact info in the chat before I leave. Thank you again.
+
+Yesterday
+- I continued on the shape notification work
+- I have most of the changes in so
+
+Today
+- I just have a few minor changes and then
+- I'll be in testing mode
+
+### 11/15/22
+Yesterday
+- I worked on a few bugs with the shape manager and then the incident app notifications
+- In the afternoon I wrapped up the app notifications for Unit
+
+Today
+- I'll be working on assets and devices
+
+### 11/14/22
+Friday
+- I worked on adding app notifications for shape monitoring for Incidents and Alarms
+
+Today
+- I'll be working testing those changes and then move onto doing the same in Units
+
+### 11/11/22
+Yesterday
+- I continued working on the app notifications
+
+Today
+- Will be more of the same and hopefully start testing
+
+### 11/10/22
+Yesterday
+- We had a shape notifications sync up meeting
+- I then started working on app notifications for alarms
+- I talked with Jared some to see how I can test it but
+- I ran into a few issues building the project so
+
+Today
+- I'll try and get that resolves
+- And I'll also be working on the changes discussed in the meeting yesterday
+- My testbed is running into some CORS errors so I'll have to get that resolved as well
+
+### 11/9/22
+Yesterday
+- I spent some time fixing bugs with the incident mini card and
+- The associations not updating the UI live
+- In the afternoon I started looking into the notification manager work
+- I have the first pass for that done so
+
+Today
+- I'll continue on with that and
+- We also have the shape sync up
+
+### 11/8/22
+Yesterday
+- I pushed up the Shape Manager change
+- And then added the missing mini cards to Incident and Unit
+
+Today
+- I'm get started on the app notifications for when an entity enters or exit a shape
+- I don't have the design for that yet so I'll have to see how much I can get done
+
+### 11/7/22
+Friday
+- I worked on the Shape Manager refactoring all day
+- I have all of the changes ready so
+
+Today
+- I'll push it up and start testing
+- I'll then go back to the shape card story to create missing mini cards
+
+### 11/4/22
+Yesterday
+- I got the last bit of changes in for shape card details and tested that
+- It all seemed to be working so
+
+Today
+- I'll start working on the Shape Manager updates
+
+### 11/2/22
+Yesterday
+- I continued working on the shape association card
+- I had to go back to the capabilities and make a few tweaks but
+
+Today
+- I'm hoping to wrap this story up and start testing
+
+### 11/1/22
+- I was off yesterday and Friday
+
+Thursday
+- I worked on adding injection support to all of the mini cards so
+
+Today
+- I'll be working on consuing that in Shape to show the associations
+
 ### 10/27/22
 Yesterday
 - We had a meeting to discuss the shape design

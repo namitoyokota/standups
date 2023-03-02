@@ -25,6 +25,116 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 12/22/21
+Yesterday
+- I met with John in the morning like he said
+- And then started working on the prototyping for the priority categories UI
+- Met with Mark on that so
+
+Today
+- I'm going to try and finish that up and put together some notes for Jared and Joshua when they come back
+
+### 12/21/21
+Yesterday
+- I fixed a minor bug in organization list component
+- And that lead to another minor refactoring in recovery manager
+- After that I spent some time digging into the SignalR issue Richard mentioned but couldn't get anywhere so I'm going to leave that for Jeremy when he comes back
+- And then at the end of the day I started sketching out a design for the priority category admin UI so
+
+Today
+- I'm going to get started on a prototype for that unless something comes up
+
+
+### 12/20/21
+Friday
+- Was mostly regression testing and bug fixes
+- Fixed a bug in incident keywords that Justin mentioned and I also found a small bug in organization list so
+- I'm going to work on that today and continue regression testing
+
+### 12/17/21
+Yesterday
+- I was on PTO but Wednesday was regression testing and minor bug fixes
+
+Today
+- I need to catch up on things from yesterday and then get back to more testing and bug fixes
+
+### 12/15/21
+Yesterday
+- We had a small meeting to discuss the onboarding step like Velvet said
+- And then worked on more regression testing and minor bug fixes
+- I'll be on PTO tomorrow but today will be more testing and bug fixes
+- Also I saw Velvet file a bug that I want to discuss about so if Jeremy Velvet and maybe Joshua and Mark can stay on, it should be pretty quick discussion
+
+### 12/14/21
+Yesterday
+- Was mostly regression testing and bug fixes
+- Also joined the chat and channel group testing
+
+Today
+- We have a discussion after standups on one of the onboarding steps and after that
+- Will be more testing and bug fixes
+
+### 12/13/21
+- I spent all day Friday fixing bugs on the board and coordinating with a lot of people
+- I'm fixing a small bug in the file upload component but after that I'll move on to regression testing
+
+### 12/10/21
+Yesterday
+- I worked on bug fixes for the regression testing task and also one for Create Incident that Lyna found
+
+Today
+- Will be more of the same unless something else comes up
+
+### 12/9/21
+Yesterday
+- I finished up last bit of the create incident bugs with help from Jeremy and coordinated with Jared and Justin on some backend changes
+
+Today
+- I saw some bugs on the board for feature flags and video so I'll start looking at those
+
+
+### 12/8/21
+Yesterday
+- Coninued working on the bug fixes for Create Incidents and cordinated with Jeremy most of the day on that
+
+Today
+- I just have two more bugs that I'll need to discuss with Jeremy on when he gets back so I'll finish those up today and
+- Then work on the refresh issue for group feature flags
+
+
+### 12/7/21
+Yesterday
+- I wen through the board to make sure all new implementations for Create Incident is done
+- And started working on the bug fixes related to Incident
+- I still have a few more there so I'm going to try to finish that up today 
+
+### 12/6/21
+Friday
+- Had a meeting with Velvet and Joshua like they said
+- Then worked on adding a default title when creating a new channel with an entity associated
+- And rest of the day was fixing bugs on the board
+
+Today
+- I will continue tackling the bugs on the board and anything else that comes up
+
+### 12/3/21
+Yesterday
+- I finished up a new dialog to add incident to an existing channel
+- Then looked into a angular versioning issue on one of the new packages I implemented for keywords with Jeremy
+- And then rest of the day was bug fixes
+
+Today
+- I have a meeting with Velvet at 10 for organization grouping demo
+- And then afterwards will be more bug fixes
+
+### 12/1/21
+Yesterday
+- I finished up the feature to selection icon in create incident dialog and also added styling for a new angular component I used for the keywords field
+- Then I started refactoring the add remarks UI to match the UX design so
+
+Today
+- I'll finish that up today and I'll start on adding incident to existing channel
+
 ### 11/29/21
 Wednesday
 - I got a couple of bug fixes in the morning and

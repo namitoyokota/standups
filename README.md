@@ -26,6 +26,162 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 9/30/22
+Yesterday
+- I continued moving the tenant repo into a platform package
+
+Today
+- I'm doing a lot of cleaning for that and start testing
+
+### 9/29/22
+Yesterday
+- I start working on moving the tenant repo into a platform package and
+
+Today
+- Is more of the same
+
+### 9/28/22
+Yesterday
+- I continued writing unit tests for the common libraries platform package and
+- Got that PR up this morning so
+
+Today
+- I will work on moving the tenant repo into platform
+
+### 9/27/22
+Yesterday
+- I found that the custom icons issue wasn't completely resolve on Staging so investigated that
+- And passed that on to Jared
+- I then went back to the platform refactor work
+- At the end of the day Velvet found a styling issue with the icon selection so I fixed that as well
+
+Today
+- I'm back on the platform work unless something comes up
+
+### 9/26/22
+Friday
+- I was able to track down the issue with custom icons not loading and fixed that
+- I then moved on to the video toggle bug but that ended up being a backend issue so
+- I passed that on to Justin
+- In the afternoon went back to the platform refactor story to write some unit tests
+
+Today
+- Is more unit tests unless something comes up
+
+### 9/23/22
+Yesterday
+- I worked on last bit of tasks for regression testing
+- Liked Jared said I got his help looking into the custom icon bug
+- So today I'll continue investigating into that
+
+### 9/21/22
+Yesterday
+- I was fighting issues with my local service but I did get that fixed at the end of the day so
+- I started looking into the Video bug Justin's been looking into and
+- I'll focus on that today
+
+### 9/20/22
+Yesterday
+- I fixed a bug in the geolocation UI and the Incident Creation, after that
+- Investigated a few bugs on the regresstion story
+
+Today
+- I still need to look at one more related to the Changelog once Identity issues are resolved and then
+- I'll go back to the platform refactor story unless something comes up
+
+### 9/19/22
+Friday
+- I continued working on the platform refactoring and
+- Finished up writing unit tests for a couple of repos
+
+Today
+- I'm finishing up unit tests for conversations and after that
+- I'll look at a few geolocation bugs Lyna found and
+- Then go back to the regression story for more bug fixes
+
+### 9/16/22
+Yesterday
+- I continued working on the platform package refactoring
+- We also had user load testing meeting
+
+Today
+- I'm getting started on writing unit tests for the conversations platform package
+
+### 9/15/22
+Yesterday
+- I wrapped up the regression task for the Video Manager and then
+- Moved on to fixing the Geolocation bugs found from the group testing
+- I'm back on the platform refactor story now unless something comes up
+
+Today
+- Will be more of the same and
+- I'm in the group testing later this afternoon as well
+
+### 9/14/22
+Yesterday
+- I continued working on regression testing for the Video Manager and
+- Also was included in the group testing
+
+Today
+- I'm about to wrap up the video manager and
+- Start working on the Geolocation bugs found during the group testing
+- After that I'll get back on regression testing
+
+### 9/13/22
+Yesterday
+- I worked on the regression story and
+
+Today
+- Is more of the same
+- And I'm also involved with the chat channel testing
+
+### 9/12/22
+Friday
+- I was off in the afternoon but in the morning
+- I wrapped up the Geolocation story and sent that information off to Lyna and Velvet
+- I then started on the regression story so
+- I'll continue on that today
+
+### 9/9/22
+Yesterday
+- I continued on with the geolocation UI work and got most of it done
+- In the afternoon I spent some time investigating an issue with the Access Manager changelog bug but that ended up being a backend issue so I passed that on to Chad
+
+Today
+- I'll be off at 1 so
+- I'll push up a fix for a small bug with Geolocation and
+- start looking into the Priority Manager bugs on the Regression Story
+
+### 9/8/22
+Yesterday
+- I finished up creating a common component for selecting and searching a location
+- And refactored Create Incident dialog to use it
+- I just finished up the Channel refactor to do the same so
+
+Today
+- I'll be back on the Map repo for the 2nd pass for the location component with the new icon from UX and a few bug fixes
+
+### 9/7/22
+Yesterday
+- I started working on the Geolocation UI story and talked to Jeremy and Steve about that individually
+- I have the basics of the common component done but I have a question about it so if Johnny and others could stay on here it should be pretty quick
+
+Today
+- I'll continue on that work and try to get to using this component in the Incident Creation
+
+### 9/6/22
+Friday
+- I started testing the new localization manager I made in the platform package
+- And I'll continue working on that today
+
+### 9/2/22
+Yesterday
+- I continued working on converting the localization service to the platform package
+- I was able to wrap that up so I started refactoring the web to use that
+
+Today
+- I'll continue on with that work
+
 ### 8/31/22
 Yesterday
 - I started working on the refactoring of the localization service to be in a platform package and

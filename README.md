@@ -26,6 +26,206 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 8/31/22
+Yesterday
+- I started working on the refactoring of the localization service to be in a platform package and
+- Got stuck towards the end of the day with a console error so
+
+Today
+- I'm still trying to figure that out but once that's resolved I'll continue with the rest of the implementation
+
+### 8/30/22
+Yesterday
+- I finished up unit tests for the licensing platform package and
+- Then had a meeting to discuss the mobile work
+- After that I started looking into the localization service and the Angular specific library we're using for that
+
+Today
+- I'm going to start refactoring that into a generic typescript interface and
+- Discussing a few things with Jeremy as needed
+
+### 8/29/22
+Friday
+- I started working on writing unit tests for the licensing platform package
+- And we also had a meeting to discuss ideas to the UI changes for Karen's automated tests
+
+Today
+- I'm going to wrap up licensing and then be back on refactoring localization
+
+### 8/26/22
+Yesterday
+- I continued working on the platform refactor work and
+- Got most of the unit testing done for localization so
+
+Today
+- I'll finish that up and go back to licensing for more unit tests
+
+### 8/25/22
+Yesterday
+- We had a sync up for the mobile UI story and then
+- Worked on the platform refactor work for the localization repo most of the day
+- I also finished a couple of tasks related to Blackduck and
+- I just finished up the last PR a few minutes ago so that should be all done
+
+Today
+- I'll be back on platform refactor
+- We need to discuss the translation library we can use to support the mobile version so Mark whenever you and Joshua are free, I would like to have a meeting sometime today or tomorrow
+
+### 8/24/22
+Yesterday
+- I continued working on the platform refactor story
+- I finished up the licensing repo and started working on localization so
+
+Today
+- I'll continue on that work
+
+### 8/23/22
+Yesterday
+- I met with Jeremy in the morning to discuss the platform work
+- And got started on adding a shell project to Licensing
+
+Today
+- I'm working on adding the API calls and testing
+
+### 8/22/22
+Friday
+- I wrapped up my changes for the association work
+- and then moved onto upgrading packages for the baclk duck story
+
+Today
+- I'm getting started on the platform refactor work
+
+### 8/19/22
+Yesterday
+- I wrapped up the last bit of work for the aggregated association story
+- I got the PR up at the end of the day so
+
+Today
+- I'll start looking into the platform story
+
+### 8/18/22
+Yesterday
+- I continued working on the association work
+- I also reviewed the Line Buffer documentation and
+- Fixed a bug in the video manager
+
+Today
+- I'll be back on the association work to use the new bulk timeline endpoint Jared implemented
+- I'm hoping to finish testing and wrap up the story today
+
+### 8/17/22
+Yesterday
+- I implemented the first half of the new association workflow to support bulk operations and
+- Talked that over with Jeremy
+- I did some basic testing this morning and it seems to work well so
+
+Today
+- I'll continue working on that and connecting it to the new bulk endpoints
+
+### 8/16/22
+Yesterday
+- I continued working on the aggregated association work and
+- Also talked with Jared for a second to get some questions answered
+- I made really good progress yesterday finally so
+
+Today
+- I'll be testing all of that out and discussing it with Jeremy once I get to a good spot
+
+### 8/15/22
+Friday
+- I was off from 1 so until then I worked on implementing the workflow to support aggregated association adapters
+
+Today
+- Will be more of the same and I'm also hoping to add the new backend API for getting bulk associations
+
+### 8/12/22
+Yesterday
+- I worked on a couple of bug fixes that we had talked about in Sprint Planning and then
+- Went back to the association work
+- I was able to ask Jeremy some questions and am finally getting the grasp of how it all works together so
+
+Today
+- I'll continue on that work and
+- I'll also be off at 1 today
+
+### 8/10/22
+Yesterday
+- I met with Jeremy to talk about the association work for action plans
+- And worked on that for most of the day
+- Made some good progress with that
+- I also had a few sync up meetings
+
+Today
+- I'm going back to shapes to enable a right click on the map
+- And afterwards I'll be back to testing associations
+
+### 8/9/22
+Yesterday
+- I added a new email validation method to the platform package so it can be used in multiple places
+- I then investigate an issue I was seeing where you try to edit a shape and it doesn't get centered on the map
+- I couldn't find the cause for it but it seemed to be working just fine on Staging so
+- I then moved on to fixing an issue with the user select dropdown not showing the profile image
+
+Today
+- I'll be going back to adding a new association for action plans
+- And I'm involved with a couple of meetings as well
+
+
+### 8/8/22
+Friday
+- I finished up the last bit of changes to the line buffer refactoring and
+- Pushed that up
+- It should be all on Staging and good for testing
+- I then fixed the draw tool issue on Staging caused by the leaflet upgrade and then
+- Looked into the line type bug on the board and talked that with Emma
+
+Today
+- I have a few bugs on the board to go take a look at and
+- I found a small issue with the line geometry so I need to go look at that as well
+
+### 8/5/22
+Yesterday
+- I continued working on the line buffer issues
+- I thought I had everything done but this morning
+- I found one small issue that I'm hoping to solve soon so
+
+Today
+- I'll try to get that pushed up and start retesting
+
+### 8/4/22
+Yesterday
+- I continued working on the refactoring for the line buffer and
+- Tried out a new approach for managing multiple buffer layers
+- Most of it seems to be working so
+
+Today
+- I'm hoping to push this up soon and if I do
+- I need to go back to some of the issues Velvet and Lyna are seeing with the draw tool
+
+### 8/3/22
+Yesterday
+- I spent all day trying to implement a way for the map to handle multiple lines at the same time and few of the ideas I had didn't work very well so
+
+Today
+- I'm going to try an approach Jeremy suggested and hopefully wrap this up
+
+### 8/2/22
+Yesterday
+- I continued refactoring the line buffer work to support editing the graphics
+- I also talked with Emma on issues I was having with the backend but it ended up being an issue with how I was sending in the data so
+- I was finally able to get everything working
+
+Today
+- I have a lot of small bugs to fix related to the buffer so I'll be working on those
+
+### 8/1/22
+Friday
+- I continued working on the line buffer bug
+- I was able to fix the bug but after a discussion with Jeremy we found that we can support changing graphics to the line buffer that we were not able to before this change so
+
+Today
+- I'll be working on implementing that
+
 ### 7/29/22
 Yesterday
 - I started looking into a line buffer bug and figured out that there was some refactoring required so I worked on that for most of the day

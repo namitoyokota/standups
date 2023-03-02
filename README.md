@@ -26,6 +26,151 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 6/29/22
+Yesterday
+- I spent most of the time testing and cleaning up the code for the Line buffer implementation in the map repo
+- I have a few bugs that I found that I fixed but there's still a couple of more so
+- I'll be looking at those today
+
+### 6/28/22
+Yesterday
+- I fixed a few access manager bugs and then
+- Went back to map to implement the filtering mask for Line buffer
+- I was able to finish that up so I'm starting to see the end of the tunnel for this story
+
+Today
+- I'll be trying to fix all of the small bugs that I have left and clean up all of the code
+- Mark if you could set up a meeting sometime this week I can show you guys what I was so far and discuss future work that'll be great
+- Probably include Emma in that too so we can talk about the backend work
+
+### 6/27/22
+Friday
+- In the morning I fixed a minor bug in onboarding that Charlotte found
+- And then I continued working on the line buffer implementation
+- I found out that during my testing changed the code that effected the shape styling so
+- I had to take one step backwords to fix that
+
+Today
+- I'll be working on filtering the map markers according to the line buffer
+- And I'm also looking into a few bugs in the Access Manager
+
+### 6/24/22
+Yesterday
+- I worked on implementing the undo and redo support to the line buffer
+- I have that working so I started looking into the bug Charlotte came to me with
+- I have a fix for one ready so
+
+Today
+- I'll work on the other and then will be back on map
+- To figure out how to make the filtering work
+
+### 6/23/22
+Yesterday
+- I continued working on the buffer implementation to the line shape
+- I have the radius component working with the buffer logic so
+
+Today
+- I'll be working on supporting the undo and redo button to the radius change
+
+### 6/22/22
+Yesterday
+- I spent most of the day playing with the buffer implementation for the map
+- We also had group testing for data sharing in the afternoon
+
+Today
+- I'll be attempting to connect the buffer logic I have now to the frontend
+
+### 6/21/22
+Yesterday
+- I talked with Jeremy in the morning to give him an update on my shape filter work and ask for guidance
+- I continued working on that for most of the day and
+- I also pushed up a fix for Priority Manager that Justin found
+
+Today
+- I'll continue on with the shape work and
+- We also have group testing in the afternoon
+
+### 6/20/22
+Fday
+- I continued working on the shape filter story for adding lines and then
+- Later in the afternoon Charlotte notified me with a layout manager bug so I put in a fix for that but I'll wait to complete that PR until after the release
+
+Today
+- I'm meeting with Jeremy to give him an update on my work and see where to go from there
+
+### 6/17/22
+Yesterday
+- I continued on research with how to implement a buffer for a line in shape filters
+- And I started working on a prototype for that
+- I'm making some progress so
+- I will continue working on that today
+
+### 6/16/22
+Yesterday
+- I met with Jeremy to discuss my progress with adding Line to Shape Filters
+- I then started research on how we can implement a buffer zone
+- We also had group testing in the afternoon
+- I then looked into the data sharing lock issue we saw in group testing
+
+Today
+- I will continue on with the research and
+- Help with lock bug fixes as needed
+
+### 6/15/22
+Yesterday
+- We had shapes group testing in the morning and then
+- I started making changes to support Line as a shape
+- I made some progress so I'm planning on talking to Jeremy after this and then
+- Will continue on that work today
+
+### 6/14/22
+Yesterday
+- I updated a hover text for feature flags in the morning and then
+- Started playing with the shape filter code and reading through the documentation
+- I'm starting to get the basics down so
+- I'll continue on that today and we also have Shapes Group Testing
+
+### 6/13/22
+- I was off on PTO Friday but
+
+Thursday
+- I fixed a few terminology bugs in the morning
+- And a fix I put in a few weeks ago in Recovery Manager wasn't functioning correctly so I fixed that again
+- In the afternoon I met with Jeremy to discuss the new story for Shapes and
+- I found out that all of that code is very different and complicated so I spent rest of the day reading through the code and trying to understand the basics
+
+Today
+- I will continue on that unless something else comes up
+
+### 6/8/22
+Yesterday
+- I continued on with bug fixes
+- I'm discussing with Jeremy on a bug with the asset not showing up in Channels timeline and we think it's just a problem for me so I'm looking into that now
+- I also added some sorting to the capabilities this morning
+
+Today
+- I'll continue on with the asset issue and I also saw that I was tagged for the feature flag change so I'll go take a look at that as well
+
+### 6/7/22
+- I was out on PTO yesterday but Friday
+- We had group testing in the morning and I worked on fixings the bugs that were found
+- Today I'm still looking into a few more so I'll try to wrap those up
+- And then I'll be off at noon
+
+### 6/3/22
+Yesterday
+- We had a group testing in the morning and then
+- Worked on bug fixes most of the day
+- I tried to investigate a bug on channels where some cards aren't displaying any information and I'm still trying to figure that out today
+- We also have chat channels group testing and
+- I'll continue working on other bug fixes
+
+### 6/2/22
+Yesterday
+- Was a lot of bug fixes for me
+- And I still have a couple to get through today so
+- I will be working on those after the group testing
+
 ### 5/31/22
 Friday
 - I worked on bugs on the board all day

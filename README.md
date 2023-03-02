@@ -29,6 +29,145 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 4/29/22
+Yesterday
+- Before sprint planning in the morning I worked on a couple of bug fixes and then
+- In the afternoon I got started on the hyperlinks task
+- I have an updated prototype ready so if Mark and Jeremy could stay I can show you guys that real quick
+
+Today
+- I'll continue on the hyperlinks story
+
+### 4/27/22
+Yesterday
+- I fixed some bugs in the morning and then worked on the new hyperlinks component
+- I finished the prototyping for that so I implemented that in all of the capabilities
+- So now whenever the backend is implemented the new hyperlinks section should show up in the UI
+
+Today
+- I'm looking through some of the localization bugs Lyna found and I'll try to wrap up any other bugs I find
+
+### 4/26/22
+Yesterday
+- I investigated 2 bugs with the Shapes Data Share and one was on the frontend and the other I believed to be backend so I talked to Emma on that throughout the day
+- In the afternoon, I fixed a bug related to the Feeds slideshow and
+- also discussed the new Hyperlinks task with Jeremy so I started a prototype on that
+
+Today
+- I have a few simple bug fixes that I'm working on now and I'll be back on hyperlinks unless something else comes up
+
+
+### 4/25/22
+Friday
+- I discussed the bug on the shape attachment history with Jeremy in the morning and while fixing that, I found additional issues with how we load the timeline so I pass on that information with Mark and Joshua
+- In the afternoon, I continued on with other bug fixes on the board so
+
+Today
+- I'm working on a bug with Shapes Data Sharing and after that I still have a good bit of bug fixes before the Sprint ends so I'll be focused on that for today
+
+
+### 4/22/22
+Yesterday
+- I was off on PTO but
+
+Wednesday
+- I wrapped up my portion of hardening the styling issues found from the localization changes so
+
+Today
+- I'm going to all of the capabilities to fix the Incident Attachment bug in the History that Trevor was looking into
+- And I also need to go back to the localizaion story just to go through everything that I fix and make sure they're all working
+
+### 4/20/22
+Yesterday
+- I worked on supporting the Smart Advisor team look for memory leaks and pushed that out for them
+- And then started working on the hardening task for the localization changes so
+
+Today
+- Will be more of the same and also one more bug that Jeremy pointed me to related to Feeds
+
+### 4/19/22
+Yesterday
+- I worked on bug fixes most of the day and
+
+Today
+- will be more of the same
+
+### 4/15/22
+Yesterday
+- I was in a couple of meetings related to Shapes and Onboarding and
+- Mostly worked on bug fixes for rest of the day
+
+Today
+- I have a couple improvements to make to shape history including the updated icons I got from Robert and then ill continue on with bug fixes unless something else comes up
+
+### 4/14/22
+Yesterday
+- I contineud working on the Shape History work and pushed up my PR at the end of the day
+- I tested this change this morning so it should be ready for testing and documentation
+
+Today
+- Jeremy notified me that the Notification Manager missing the Shape criterias but after talking to him we probably should have a meeting to come up with a solution so
+- If some of yall can stay after standups we can discuss this
+
+### 4/13/22
+Yesterday
+- I finished the first pass through for the shape notifications work and then
+- Started working on the shape history story
+
+Today
+- I will continue on the shape history
+
+### 4/12/22
+Yesterday
+- I wrapped up the work for adding redaction to the Shape List and then
+- Started working on the Shape Notifications
+
+Today
+- Will be more of the same
+
+### 4/11/22
+Friday
+- I investigated the duplicate incident bug and Chad found out that it was actually not a bug so
+- Afterwards, I started working on the redaction list for Shapes and
+
+Today
+- I'm going to try to wrap that up and then start working on another story
+
+### 4/8/22
+Yesterday
+- I wrapped up the work for adding Shapes to the Data Sharing UI
+- That PR went up this morning so I will be testing that after Webroot goes up to Dev
+- While I'm waiting on that, I'm investigating a bug Lyna found on the Incident List showing duplicates
+- After that I'll start working on adding redaction to the shape list
+
+### 4/5/22
+Yesterday
+- I started working on adding Shapes to the Data Sharing UI and that took out most of the day but
+- I also investigated the Create Incident token issue but I couldn't find any issues and that code hasn't been touched for at least 2 months so I'm gonna discuss that with Jeremy today and will be back on Data Sharing story
+- Also Joshua Jeremy and maybe Emma can stay on after to discuss the redaction list for Shapes that'll be great
+
+### 4/4/22
+Friday
+- I worked on bug fixes all day
+- In the morning I implemented the license validation to the Create Incident button
+- And then looking into the translation issue with the incident priorities
+- In the afternoon I wrapped up the last big of bug fixes for the Organization Setup Changelog
+- And also looked into the RapidSOS Gateway bug but ran into some issues running the testbed so I discussed that issue with John this morning
+
+Today
+- I think all of the frontend tasks and bug fixes are done so Mark I'll need your help figuring out what my next task should be
+
+
+### 4/1/22
+Yesterday
+- I worked on adding the Smart Advisor support in Associations
+- And then looked into the Organization Setup Changelog bug
+- That seemed to be working locally so talking to Lyna on that this morning
+- At the end of the day yesterday I also started looking into a couple of Create Incident bugs Mark mentioned so
+
+Today
+- I will try to wrap those up and the Organization Setup Changelog bugs
+
 ### 3/31/22
 Yesterday
 - I wrapped up all of the bug fixes on the board so got with Jeremy in the afternoon to take some load off of him

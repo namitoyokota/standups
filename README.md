@@ -29,6 +29,169 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 5/31/22
+Friday
+- I worked on bugs on the board all day
+- I got a new indicator for the license when youre creating a new organization
+- And I also go through all of the bugs for create incident so
+
+Today
+- I'll get back on testing and try to wrap up Create Incident and Organization Setup
+
+### 5/27/22
+Yesterday
+- Was a lot of bug fixes and
+
+Today
+- Will be more of the same
+
+### 5/26/22
+Yesterday
+- For me was mostly bug fixes and testing
+- We also had group testing for chat channels and then
+- I discussed the hyperlink issue with Justin
+
+Today
+- Will be more bug fixes
+
+### 5/25/22
+Yesterday
+- For me was mostly bug fixes and got some regression testing tasks done
+
+Today
+- Will be more of the same
+
+### 5/24/22
+Yesterday
+- I continued on with regression testing Recovery Manager and Feature Flags
+- I'm finishing up the last bit of fixes now so after that
+- I'll move onto Icon Manager
+
+### 5/23/22
+Friday
+- I worked on adding the hyperlink to history list and then
+- Started regression testing for recovery manager and feature flags
+
+Today
+- I'll continue to work on that and fix bugs as I go through
+
+### 5/20/22
+Yesterday
+- I went through the capabilities to update the map marker tooltips
+- I then fixed the issue with the Shape History not updating dynamically
+- At the end of the day I found why the icon selection for Create Incident wasn't working so I put up a PR for that this morning
+
+Today
+- I'm focusing on wrapping up the translation bugs and then
+- I need to go through the capabilities again to add a new hyperlink icon in the History Item I got from Robert
+- And Joshua I have a question for you on the translation files if you could stay after standup
+
+### 5/18/22
+Yesterday
+- I was off at 2 but until then I mostly worked on the video manager bug
+- Late in the afternoon I discussed with Johnny and Joshua on the approach for the marker tooltip translation issue
+
+Today
+- Jeremy notified me about hyperlink notifications not working so I fixed that and
+- I'll be working on the market tooltip fix going through each of the capabilities
+
+### 5/17/22
+Yesterday
+- I investigated a couple of bugs in the morning for login and data sharing and then
+- Worked on a video admin bug in the afternoon
+- I have the code change ready but I'm struggling to test it now
+- So I'm discussing with T as needed
+
+Today
+- I'll be off at 2 so I'll get this change up hopefully and wrap up the localization bugs
+
+### 5/16/22
+Friday
+- I wrapped up the Terminology Manager bugs and then
+- Fixed the remaining bugs for the translation story
+- I then moved on to the Hyperlink bugs that Lyna found
+
+Today
+- I just pushed up the last fix for the Hyperlink bugs
+- I'm not sure what I should work on next so I'll need to get with Joshua for the next step whenever he's available
+
+### 5/13/22
+Yesterday
+- I fixed a bug for the Recovery Manager that Justin found and then
+- Moved onto bugs in the Terminology Manager
+- I found some bugs while I was investigating the original bugs so I just finished those as well this morning
+
+Today
+- I'll do some research into the Azure Map API to see if we can support geolocation for Japan
+- And then will be back on bug fixes unless something else comes up
+
+### 5/12/22
+Yesterday
+- I fixed 2 or 3 bugs in the morning and then moved on to creating a new shared component that'll be used in Action Plans
+- I just pushed up the PR this morning so
+
+Today
+- I'll get back on some of the new bugs for the localization story and then anything else that comes up
+
+
+### 5/11/22
+Yesterday
+- I had some issues with the local cluster so ended up having to reset and reinstall services in the morning but after that
+- I worked on the hyperlinks story and adding validations
+- I finished that and then went through all of the capabilities to hide the hyperlink detail section in the card behind a feature flag
+
+Today
+- I have a few bug fixes that I'm looking at and the I'll get back on Action Plans
+
+### 5/7/22
+Friday
+- I worked on localization issues in the morning and then in the afternoon
+- Robert came back to me with the UX design for hyperlinks on that so I worked on that
+
+Today
+- I'll wrap the Hyperlinks work and then go back to Action Plans
+
+### 5/6/22
+Yesterday
+- I continued going through the bugs on the translation story
+- During that process, I found an issue with the login screen which seems to be coming from the backend so I recorded my findings on that as well
+
+Today
+- I will continue on with translation bugs and then when Robert comes back with the design for Hyperlinks I'll get back on that
+
+### 5/5/22
+Yesterday
+- I worked on Action Plans most of the day and a couple of bug fixes here and there
+- At the end of the day I started going through the translation bugs that Lyna filed
+
+Today
+- I'm going to continue with that
+
+### 5/4/22
+Yesterday
+- I continued on with setting up the Action Plans frontend
+- I have the core services that's needed done so
+
+Today
+- I'll be adding a new feature flag and a shell for the injectable component that will be used in the Channels UI
+
+### 5/3/22
+Yesterday
+- I worked on setting up a new frontend project for Action Plans in the morning and then
+- Had a UX meeting to discuss Hyperlinks
+- Afterwards I added an ability to remove hyperlink and then sent that updated UI to Robert
+
+Today
+- I will be back on the story for Action Plans 
+
+### 5/2/22
+Friday
+- I pushed up the changes for the Hyperlinks component and then updated the copyright text in Webroot
+- In the afternoon I helped out John on checking the API versions were using
+
+Today
+- I'll continue on the API check and also probably be back on Hyperlinks after the meeting with the UX in the afternoon
+
 ### 4/29/22
 Yesterday
 - Before sprint planning in the morning I worked on a couple of bug fixes and then

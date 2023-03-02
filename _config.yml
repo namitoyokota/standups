@@ -2,5 +2,5 @@
 name: Namito's Standups
 description: Script used to update my status during standups
 url: "https://standups.namito.wiki"
-markdown: kramdown
+markdown: GFM
 highlighter: rouge

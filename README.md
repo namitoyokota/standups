@@ -25,6 +25,142 @@ Today
 ## Hexagon Safety & Infrastructure
 > January 4th, 2021 - November 23rd, 2022
 
+### 1/31/22
+Friday
+- I pushed up a fix for the priority manager page not loading with help from Jeremy and
+- Worked on a lot of hardening on that so
+- I will continue on that today
+
+### 1/28/22
+Yesterday
+- I found that the admin page for priorities was not displaying on Staging and after fixing that, I ran into another issue where it gets stuck in the loading screen
+- I'm still investigating that issue so
+- I'm getting some help from Jeremy today and
+- Hopefully get to testing today and start with bug fixes
+- And also help justin some
+
+### 1/27/22
+Yesterday
+- I finished a PR with the last bit of changes to the Priority Manager so
+
+Today
+- Will be a lot of testing and hardening once the changes go up to Staging
+
+### 1/26/22
+Yesterday
+- I finished up a new component for the time picker in common libraries and then added that to the Create Incident dialog
+- I then started working on refactoring the priority category onboarding step so
+
+Today
+- I'll finish that up and I have a few more features to add to the priority manager
+
+### 1/25/22
+Yesterday
+- I wrapped up the Priority Manager PR with some help from Jeremy on the circular dependency issue
+- I then worked on configuring time for the incident expiration and
+- I will continue to work on that today and go back to the Priority Manager afterwards
+
+### 1/24/22
+Friday
+- I investigated the circular dependency issue but I'm gonna need to talk to Jeremy about that today
+- So I continued adding some of the features to the Priority Manager that I was going to add in the next PR along with some bug fixes so
+
+Today
+- I'm going to try and finish up the PR and start testing
+
+### 1/21/22
+Yesterday
+- I spent most of the day cleaning up the code and testing some edge cases for the priority manager
+- And I got to a pretty good spot so I started working on the PR and now I'm running into a circular dependency error so
+
+Today
+- I'm going to try and figure that out and hopefully that doesn't take too long so I can push this up and start testing
+
+### 1/20/22
+Yesterday
+- We had a sync up and a demo of the priority manager page
+- A lot of good suggestions came up there so I worked on that for rest of the day and I have everything ready now so
+
+Today
+- I will be cleaning up the code and doing a lot of testing 
+
+### 1/19/22
+Yesterday
+- I wrapped up the implementations for the priority manager page so
+
+Today
+- We have a sync up after standups and then
+- I'll move onto adding a new feature flag and cleaning up everything before pushing up the changes
+
+### 1/18/22
+Friday
+- I ran into a lot of issues with restructuring the priority manager page so
+- I got help from Jeremy and got that figured out and he also pointed out some things to improve so
+
+Today
+- I'm going to wrap all of that up
+
+### 1/14/22
+Yesterday
+- I continued working on the Priority Manager page
+- I have the bound restrictions working and mostly all of the other features so
+
+Today
+- I'm going to be trying to wrap this up and do some testing
+- And I'm also off after 1 today
+
+### 1/12/22
+Yesterday
+- I worked on restricting the bounds for the Priority Manager page and then was off on PTO in the afternoon
+
+Today
+- I will continue on the Prioriy Manager
+
+### 1/11/22
+Yesterday
+- I worked on a new dialog to create a priority preset in the priority manager
+- I have most of that done so
+
+Today
+- I'll get started on restricting the bounds and continueing on the page
+
+### 1/10/22
+Friday
+- I continued working on the Priority Manager page and I finished up the core functionalities so
+
+Today
+- I'm going to start on a wizard for creating presets
+
+### 1/7/22
+Yesterday
+- I fixed the expiration bug for incident in the morning and then continue working on the Priority Manager
+
+Today
+- I will continue working on the priority manager unless something else comes up
+
+### 1/6/22
+Yesterday
+- I worked on the Priority Manager and
+
+Today
+- Will be more of the same and I'm also looking into fixing the Expiration issue in Create Incidents this morning as well
+
+### 1/5/22
+Yesterday
+- I fixed a bug in the morning for creating a new organization and
+- Had a meeting in the afternoon to discuss that so I worked on those changes and
+
+Today
+- I will continue working on the priority manager
+
+### 1/4/22
+- I was on PTO yesterday but
+- Up until the holidays, I worked on bug fixes and also started working on a prototype for the Priority Categories Admin UI
+
+Today
+- I'll work on the bad email issue during onboarding and then continue with any other bug fixes
+
+
 ### 12/22/21
 Yesterday
 - I met with John in the morning like he said

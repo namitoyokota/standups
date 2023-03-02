@@ -1,11 +1,7 @@
 # Standups
 A history of my standups.
 
-## Venminder
-> December 5th, 2022 - Present
-
-![](https://i.imgur.com/waxVImv.png)
-
+## Today
 ### 3/2/23
 Yesterday
 - I worked on a couple of tech debt stories: 1175 and 1019. 1175 is adding a new shared enum for Display Types of Controls like date, checkbox, textfield, and others. 1019 is cleaning up the add control dialog.
@@ -15,7 +11,8 @@ Today
 - I will continue working on 1019.
 - I was looking through all of the UX designs yesterday afternoon and found some differences in the design and the current UI, so I'll also make those minor changes in the same PR as well.
 
-![](https://i.imgur.com/waxVImv.png)
+## Venminder
+> December 5th, 2022 - Present
 
 ### 3/1/23
 Yesterday

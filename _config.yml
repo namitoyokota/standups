@@ -4,4 +4,4 @@ description: Script used to update my status during standups
 url: "https://standups.namito.wiki"
 markdown: GFM
 highlighter: rouge
-remote_theme: "dracula/gh-pages"
+remote_theme: pages-themes/midnight@v0.2.0

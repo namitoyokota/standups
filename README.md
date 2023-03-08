@@ -2,6 +2,12 @@
 A history of my standups.
 
 ## Today
+### 3/8/23
+- Have a demo for you guys to handle autosave - 1190
+- Implement the same workflow for Perform Review page
+- Frontend Guild Meeting
+- Maybe start working on calculating overall rating - 940
+
 ### 3/7/23
 - Implement a new service for handling autosave - 1190
 - KnowBe4 Training Courses

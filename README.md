@@ -2,6 +2,11 @@
 A history of my standups.
 
 ## Today
+### 3/9/23
+- Adding a new event to the `vm-date-picker` on clear - 1101
+- Will start working on calculating overall rating - 940
+- Make a minor PR to move the order details section - 1174 
+
 ### 3/8/23
 - Have a demo for you guys to handle autosave - 1190
 - Implement the same workflow for Perform Review page

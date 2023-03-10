@@ -2,6 +2,10 @@
 A history of my standups.
 
 ## Today
+### 3/10/23
+- Work with Patrick on 940
+- Start working on editing controls - 1107
+
 ### 3/9/23
 - Adding a new event to the `vm-date-picker` on clear - 1101
 - Will start working on calculating overall rating - 940

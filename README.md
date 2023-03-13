@@ -2,6 +2,10 @@
 A history of my standups.
 
 ## Today
+### 3/13/23
+- Finish up supporting editing of controls - 1107
+- Making necessary changes to prep for Perform Review dropdowns - 1174
+
 ### 3/10/23
 - Work with Patrick on 940
 - Start working on editing controls - 1107

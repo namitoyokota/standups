@@ -2,9 +2,14 @@
 A history of my standups.
 
 ## Today
+### 3/14/23
+- Creating a new component for dropdown pane in template builder - 1174
+- Probably pick up a tech debt story unless Jess has something for me
+
 ### 3/13/23
-- Finish up supporting editing of controls - 1107
-- Making necessary changes to prep for Perform Review dropdowns - 1174
+- Finish up supporting editing of controls (PR is up) - 1107
+- Final bit of changes for Overall Rating calculating (PR is up) - 940
+- Making necessary changes to prep for Template Builder dropdowns - 1174
 
 ### 3/10/23
 - Work with Patrick on 940
